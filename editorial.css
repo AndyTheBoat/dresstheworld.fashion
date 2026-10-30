@@ -4,3 +4,15 @@
 .collection-links{width:300px;max-width:85vw}.collection-status{display:block;margin-top:3px;font-size:11px;line-height:1.5;letter-spacing:0;text-transform:none;color:#cbb58f}.collection-progress{color:#80623e}
 
 .sequence-label{font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:#cbb58f;margin:24px 0}.image-stage{margin-top:50px;padding-top:20px;border-top:1px solid #36414e}.feature-sequence{display:grid;gap:32px}.feature-sequence figure{margin:0}.feature-sequence figcaption{margin-top:10px}.atelier-figure+.atelier-figure{margin-top:45px}
+
+/* One shared content width: full-width singles and equally divided image rows. */
+:root{--page-width:min(1320px,calc(100% - 80px))}
+body>main{width:var(--page-width);max-width:none;margin-inline:auto;padding-inline:0}
+.gallery,.gallery:has(>figure:only-child){width:100%;max-width:none}
+.gallery{grid-template-columns:repeat(2,minmax(0,1fr))}
+.gallery:has(>figure:only-child){grid-template-columns:minmax(0,1fr)}
+.gallery>figure{width:100%;min-width:0}
+.gallery .image-link{width:100%}
+.gallery .image-link img{width:100%;height:auto;max-height:none;aspect-ratio:16/9;object-fit:contain}
+.gallery:has(>figure:only-child) .image-link img{height:auto;max-height:none;aspect-ratio:auto}
+@media(max-width:760px){:root{--page-width:calc(100% - 40px)}.gallery{grid-template-columns:minmax(0,1fr)}}
