@@ -4,179 +4,540 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width,initial-scale=1">
         <meta name="theme-color" content="#0b1420">
-        <meta name="description" content="DressTheWorld, a cinematic journey where architecture becomes haute couture. Collection 001: Shanghai.">
-        <meta property="og:title" content="DressTheWorld | Architecture Meets Haute Couture">
-        <meta property="og:description" content="From the skyline to the silhouette. A world of architecture-inspired couture.">
-        <title>DressTheWorld — Architecture Meets Haute Couture</title>
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
-        <style>:root { --ink: #0b1420; --ink2: #121f2d; --pearl: #f2eee8; --silver: #b4bbc1; --champagne: #cbb58f; --border: rgba(242,238,232,.19); } * { box-sizing: border-box; } html { scroll-behavior: smooth; } body { margin: 0; color: var(--pearl); background: var(--ink); font: 300 15px/1.75 Jost,Arial,sans-serif; } a { color: inherit; text-decoration: none; } button { font: inherit; } img { display: block; width: 100%; height: 100%; object-fit: cover; } h1, h2, h3, p { margin-top: 0; } h1, h2, h3, .wordmark { font-family: "Cormorant Garamond",Georgia,serif; font-weight: 300; } h2 { font-size: clamp(3.1rem,6.6vw,7.2rem); line-height: .94; letter-spacing: -.032em; margin: .25em 0; } .wrap { width: min(1300px,calc(100% - 96px)); margin: auto; } .eyebrow { font-size: 10px; letter-spacing: .34em; text-transform: uppercase; color: var(--champagne); font-weight: 500; } .line { height: 1px; background: var(--border); } .muted { color: var(--silver); } .topbar { position: absolute; z-index: 20; top: 0; left: 0; right: 0; display: flex; align-items: center; justify-content: space-between; padding: 28px 5%; border-bottom: 1px solid rgba(255,255,255,.2); } .wordmark { font-size: 27px; letter-spacing: .045em; white-space: nowrap; } .wordmark span { font-style: italic; color: var(--champagne); } .nav { display: flex; gap: 38px; align-items: center; } .nav a, .nav button { font-size: 10px; letter-spacing: .19em; text-transform: uppercase; } .nav a:hover, .footer-links a:hover { color: var(--champagne); } .menu { display: none; background: transparent; border: 1px solid var(--border); color: var(--pearl); padding: 8px 16px; letter-spacing: .12em; font-size: 11px; } .hero { height: 100svh; min-height: 680px; position: relative; display: grid; place-items: center; isolation: isolate; text-align: center; overflow: hidden; } .hero::before { content: ""; position: absolute; inset: 0; z-index: -1; background: linear-gradient(180deg,rgba(6,15,28,.55),rgba(6,15,28,.2) 43%,#0b1420 100%),url("images/diary/000.webp") center 45%/cover; } .hero::after { content: ""; position: absolute; inset: 0; z-index: -1; background: radial-gradient(ellipse at 50% 40%,transparent 8%,rgba(5,14,25,.4) 100%); } .hero-copy { padding: 110px 24px 40px; } .hero h1 { font-size: clamp(5.5rem,13vw,12rem); line-height: .7; letter-spacing: -.07em; margin: 46px 0; } .hero h1 span { font-style: italic; } .hero .subline { font: italic 300 clamp(1.3rem,2.7vw,2.4rem) "Cormorant Garamond",serif; color: #ead9bc; letter-spacing: .05em; margin: 52px 0 45px; } .button { display: inline-flex; align-items: center; justify-content: center; gap: 20px; min-height: 50px; border: 1px solid var(--champagne); padding: 13px 30px; text-transform: uppercase; font-size: 10px; letter-spacing: .19em; transition: background .2s,color .2s; } .button:hover { color: var(--ink); background: var(--champagne); } .hero-bottom { position: absolute; bottom: 32px; left: 5%; right: 5%; display: flex; justify-content: space-between; text-align: left; color: #d7dbe0; font-size: 10px; letter-spacing: .2em; text-transform: uppercase; } .scroll-marker { display: flex; gap: 14px; align-items: center; } .scroll-marker::before { content: ""; display: block; width: 43px; height: 1px; background: var(--champagne); } .section { padding: 145px 0; } .intro { text-align: center; padding: 120px 24px 140px; } .intro blockquote { font: 300 clamp(2.4rem,4.5vw,5rem)/1.06 "Cormorant Garamond",serif; max-width: 1000px; margin: 28px auto 23px; } .intro blockquote em { color: var(--champagne); } .intro p:last-child { font-size: 12px; letter-spacing: .06em; } .collection-head { display: flex; align-items: end; justify-content: space-between; gap: 30px; padding-bottom: 42px; } .collection-head h2 { margin-bottom: 0; } .serial { font-family: "Cormorant Garamond",serif; font-size: clamp(5rem,12vw,10rem); color: rgba(255,255,255,.09); line-height: .8; } .collection-grid { display: grid; grid-template-columns: 1.1fr .9fr; gap: 22px; } .photo { min-height: 650px; overflow: hidden; position: relative; background: #253347; } .photo img { transition: transform .8s; } .photo:hover img { transform: scale(1.035); } .photo .photo-label { position: absolute; bottom: 0; left: 0; right: 0; padding: 70px 30px 27px; background: linear-gradient(transparent,rgba(4,9,16,.82)); font-size: 11px; letter-spacing: .25em; text-transform: uppercase; } .architecture img { object-position: center center; } .fashion-visual { display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 40px; text-align: center; position: relative; background: radial-gradient(ellipse at 50% 40%,#3a4d61,#172536 65%,#101923); isolation: isolate; } .fashion-visual::before { content: ""; position: absolute; inset: 8%; border: 1px solid rgba(229,222,207,.15); z-index: -1; } .tower-dress { position: relative; width: 170px; height: 380px; margin: auto; opacity: .94; } .tower-dress .head { position: absolute; top: 0; left: 68px; width: 34px; height: 43px; border: 1px solid #c0b6a7; border-radius: 50%; } .tower-dress .neck { position: absolute; top: 43px; left: 78px; width: 14px; height: 23px; background: #a99d93; } .tower-dress .body { position: absolute; top: 60px; left: 39px; width: 94px; height: 147px; background: repeating-linear-gradient(-14deg,transparent 0 15px,rgba(235,243,250,.34) 16px 17px,transparent 18px 27px),linear-gradient(105deg,#6e8195,#c5d0d4 47%,#475669 74%,#b5bfc4); clip-path: polygon(25% 0,75% 0,100% 100%,0 100%); transform: skewY(-4deg); } .tower-dress .skirt { position: absolute; top: 184px; left: 0; width: 170px; height: 184px; background: repeating-linear-gradient(-13deg,rgba(20,33,50,.35) 0 3px,transparent 4px 20px),repeating-linear-gradient(90deg,transparent 0 16px,rgba(237,241,240,.23) 17px 18px),linear-gradient(125deg,#60768c,#d6dfe0 46%,#7d8b9b 68%,#35495e); clip-path: polygon(27% 0,73% 0,100% 100%,0 100%); border-radius: 0 0 42% 15%; transform: skewY(-7deg); } .fashion-visual small { font-size: 10px; letter-spacing: .28em; text-transform: uppercase; color: var(--champagne); } .fashion-visual p { max-width: 330px; color: #c4cad0; font: italic 26px/1.2 "Cormorant Garamond",serif; } .collection-meta { display: flex; align-items: center; justify-content: space-between; gap: 30px; padding-top: 36px; } .collection-meta h3 { font-size: 35px; line-height: 1; margin: 0 0 6px; } .collection-meta p { margin: 0; } .light { background: #f1ede5; color: #182534; } .light .eyebrow { color: #846e4d; } .manifesto { text-align: center; padding: 160px 24px; } .manifesto h2 { font-size: clamp(3.7rem,7.2vw,8rem); max-width: 1050px; margin: 30px auto 30px; } .manifesto h2 em { font-weight: 300; color: #987c58; } .manifesto>p:last-child { max-width: 580px; margin: 0 auto; color: #5a6670; } .process-header { margin-bottom: 55px; } .process-header p { max-width: 620px; } .process { display: grid; grid-template-columns: repeat(3,1fr); gap: 35px 24px; } .process-card { border-top: 1px solid var(--border); padding-top: 24px; min-height: 240px; } .process-card .count { font-size: 11px; color: var(--champagne); letter-spacing: .2em; } .process-card h3 { font-size: 39px; line-height: 1; margin: 25px 0 12px; } .process-card p { color: var(--silver); max-width: 340px; font-size: 14px; } .city-row { display: grid; grid-template-columns: repeat(3,1fr); gap: 1px; background: var(--border); border: 1px solid var(--border); margin-top: 55px; } .city { background: #172334; min-height: 370px; padding: 34px; display: flex; flex-direction: column; justify-content: end; position: relative; overflow: hidden; } .city::before { content: ""; position: absolute; inset: 0; background: linear-gradient(transparent,rgba(6,14,25,.85)); z-index: 0; } .city>* { position: relative; z-index: 1; } .city h3 { font-size: 55px; line-height: 1; margin: 12px 0; } .city p { font-size: 12px; color: var(--silver); margin: 0; } .city:first-child { background: linear-gradient(160deg,#354a5e,#142135); } .city:nth-child(2) { background: linear-gradient(150deg,#343b48,#18273b); } .city:nth-child(3) { background: linear-gradient(150deg,#445163,#172333); } .film { text-align: center; padding-bottom: 155px; } .film h2 { margin: 20px auto 30px; } .film-frame { aspect-ratio: 16/8; display: grid; place-items: center; border: 1px solid var(--border); background: radial-gradient(ellipse at center,#34445a,#121e2e 70%); margin: 44px auto 35px; max-width: 1030px; } .film-frame .play { font-family: "Cormorant Garamond",serif; font-size: 75px; line-height: 1; color: var(--champagne); } .film-frame p { font-size: 11px; letter-spacing: .24em; text-transform: uppercase; color: var(--silver); } footer { border-top: 1px solid var(--border); padding: 55px 0 30px; } .foot-top { display: flex; justify-content: space-between; align-items: start; gap: 25px; } .footer-links { display: flex; gap: 28px; flex-wrap: wrap; font-size: 11px; letter-spacing: .12em; text-transform: uppercase; } .foot-bottom { border-top: 1px solid var(--border); margin-top: 60px; padding-top: 21px; display: flex; justify-content: space-between; gap: 20px; font-size: 11px; color: var(--silver); } .credit { font-size: 11px; color: var(--silver); margin-top: 20px; } .credit a { text-decoration: underline; } @media (max-width:900px){ .wrap {  width: min(100% - 44px,1300px); }  .section {  padding: 95px 0; }  .collection-grid {  grid-template-columns: 1fr 1fr; }  .photo {  min-height: 500px; }  .city {  min-height: 280px; }  .city h3 {  font-size: 43px; } } @media (max-width:670px){ .topbar {  padding: 20px 5%; }  .wordmark {  font-size: 23px; }  .menu {  display: block; }  .nav {  display: none;  position: absolute;  top: 100%;  left: 0;  right: 0;  padding: 28px;  background: var(--ink);  flex-direction: column;  gap: 24px;  border-bottom: 1px solid var(--border); }  .nav.open {  display: flex; }  .hero {  min-height: 640px; }  .hero h1 {  font-size: clamp(5rem,18vw,8rem); }  .hero-bottom {  bottom: 20px; }  .hero-bottom>span:last-child {  display: none; }  .intro {  padding: 85px 20px; }  .collection-head {  align-items: start; }  .serial {  display: none; }  .collection-grid, .process, .city-row {  grid-template-columns: 1fr; }  .photo {  min-height: 510px; }  .fashion-visual {  min-height: 510px; }  .collection-meta {  align-items: start;  flex-direction: column; }  .manifesto {  padding: 100px 22px; }  .process-card {  min-height: 185px; }  .city {  min-height: 260px; }  .film-frame {  aspect-ratio: 4/3; }  .foot-top, .foot-bottom {  flex-direction: column; }  .foot-bottom {  margin-top: 35px; } } @media (prefers-reduced-motion:reduce){ html {  scroll-behavior: auto; }  *, *::before, *::after {  transition: none!important; } }</style>
+        <meta name="description" content="A Swiss-Chinese designer’s Shanghai Tower fashion diary, from architectural references to the complete collection.">
+        <title>DressTheWorld | The Shanghai Creation Journal</title>
+        <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="diary.css">
+        <script src="diary.js" defer></script>
+        <link rel="stylesheet" href="editorial.css">
+        <script defer src="navigation.js"></script>
         <script defer src="https://cloud.umami.is/script.js" data-website-id="072705a8-174e-44c3-b7c8-53ea52c90b67"></script>
+        <link rel="stylesheet" href="entry.css">
     </head>
     <body>
-        <header class="topbar">
-            <a class="wordmark" href="#home" aria-label="DressTheWorld home">Dress<span>The</span>World</a>
-            <button class="menu" id="menuButton" aria-controls="siteNav" aria-expanded="false">MENU</button>
-            <nav class="nav" id="siteNav" aria-label="Primary">
-                <a href="#collection">Collections</a><a href="#maison">The Maison</a><a href="#process">The Process</a><a href="#world">The World</a><a href="#films">Films</a><a href="journal.html">Journal</a><a href="about.html">Who Am I?</a>
+        <header class="site-header">
+            <a class="site-brand" href="index.html" aria-label="DressTheWorld home">Dress<i>The</i>World</a>
+            <nav class="site-nav" aria-label="Primary">
+                <details class="collections-menu">
+                    <summary>Collections</summary>
+                    <div class="collection-links">
+                        <a href="index.html#shanghai-tower">Shanghai Tower</a><a href="index.html#taipei-101">Taipei 101<small class="collection-status">(Ready in Christmas 2028)</small></a><a href="index.html#petronas-towers">Petronas Towers<small class="collection-status">(reality in Q1 2027)</small></a><a href="index.html#turning-torso">Turning Torso<small class="collection-status">(primi skizzi in Q1 2027)</small></a><a href="index.html#surprise">Surprise!<small class="collection-status">(reading you comments)</small></a><a href="index.html#kingdom-centre">Kingdom Centre<small class="collection-status">(thinking about it)</small></a><a href="index.html#crown-sydney">Crown Sydney<small class="collection-status">(dreaming about it)</small></a><a href="index.html#burj-khalifa">Burj Khalifa<small class="collection-status">(considering it)</small></a>
+                    </div>
+                </details>
+                <a href="atelier.html">My Atelier</a><a href="about.html">Who Am I</a>
             </nav>
         </header>
+        <section class="entry-cover" aria-label="Shanghai Tower collection mood board">
+            <img src="images/shanghai-entry.png" width="1672" height="941" fetchpriority="high" alt="Shanghai Tower collection collage: architectural references, spiral dress in the atelier, and sketches of the dress, gloves, scarf, shoes and makeup"><a class="entry-scroll" href="#shanghai-tower">Explore the creation journal ↓</a>
+        </section>
         <main>
-            <section class="hero" id="home">
-                <div class="hero-copy">
-                    <div class="eyebrow">An architectural couture journey</div>
-                    <h1>Dress<span>The</span><br>World</h1>
-                    <p class="subline">Where Architecture Becomes Fashion</p>
-                    <a class="button" href="#collection">Enter the Collection <span aria-hidden="true">↗</span></a>
+            <article class="chapter" id="chapter-01">
+                <div class="chapter-heading">
+                    <p class="eyebrow">Chapter 01 / 1. Shanghai Tower</p>
+                    <h2>A skyline worth looking up for.</h2>
+                    <p>I began with the tower&#x27;s twist, its blue glass, and the way the same shape changes after dark. These references and mood-board variations are where my Shanghai collection starts.</p>
                 </div>
-                <div class="hero-bottom">
-                    <span>Maison DressTheWorld · Est. 2026</span><span class="scroll-marker">Scroll to explore</span><span>Collection 001 / Shanghai</span>
+                <div class="gallery">
+                    <figure>
+                        <a class="image-link" href="images/diary/011.webp" data-caption="I rearranged the skyline references again. My commitment to the collection is firmer than my commitment to a layout." aria-label="Enlarge: Skyline mood-board variation"><img src="images/diary/011-small.webp" width="1920" height="1080" loading="lazy" decoding="async" alt="Skyline mood-board variation"></a>
+                        <figcaption>
+                            <span class="image-title">Skyline mood-board variation</span>I rearranged the skyline references again. My commitment to the collection is firmer than my commitment to a layout.
+                        </figcaption>
+                    </figure>
+                    <figure>
+                        <a class="image-link" href="images/diary/015.webp" data-caption="I studied these blue panes until the grid started looking suspiciously like a pattern piece." aria-label="Enlarge: Blue glass facade detail"><img src="images/diary/015-small.webp" width="1920" height="1080" loading="lazy" decoding="async" alt="Blue glass facade detail"></a>
+                        <figcaption>
+                            <span class="image-title">Blue glass facade detail</span>I studied these blue panes until the grid started looking suspiciously like a pattern piece.
+                        </figcaption>
+                    </figure>
                 </div>
-            </section>
-            <section class="intro" aria-label="Introduction">
-                <p class="eyebrow">A different perspective on the world</p>
-                <blockquote>From the world's most extraordinary buildings to <em>wearable works of art.</em>
-                </blockquote>
-                <p class="muted">ONE LANDMARK. ONE CITY. ONE COUTURE CREATION.</p>
-            </section>
-            <section class="section" id="collection">
-                <div class="wrap">
-                    <div class="collection-head">
-                        <div>
-                            <p class="eyebrow">Chapter I / China</p>
-                            <h2>Shanghai.<br><i>The Vertical Muse.</i></h2>
-                            <p class="muted">A study of the Shanghai Tower's spiral, glass façade and rising silhouette.</p>
-                        </div>
-                        <div class="serial" aria-hidden="true">001</div>
-                    </div>
-                    <div class="collection-grid">
-                        <figure class="photo architecture" style="margin:0">
-                            <img src="images/diary/007.webp" alt="Shanghai Tower, recognizable skyscraper with twisted silhouette" loading="lazy">
-                            <figcaption class="photo-label">01 / The architectural inspiration</figcaption>
+                <details>
+                    <summary>Mood-board variations · 4 images</summary>
+                    <div class="gallery">
+                        <figure>
+                            <a class="image-link" href="images/diary/002.webp" data-caption="I gave the tower the long panel and let its details do the talking around it." aria-label="Enlarge: Proposal 01 - YouTube Landscape"><img src="images/diary/002-small.webp" width="1920" height="1080" loading="lazy" decoding="async" alt="Proposal 01 - YouTube Landscape"></a>
+                            <figcaption>
+                                <span class="image-title">Proposal 01 - YouTube Landscape</span>I gave the tower the long panel and let its details do the talking around it.
+                            </figcaption>
                         </figure>
-                        <figure class="photo" style="margin:0">
-                            <img src="images/diary/040-model-mirrored-skin-v2.webp" alt="Shanghai collection visual: silver spiral dress with scarf, gloves and folded hat in the atelier" loading="lazy">
-                            <figcaption class="photo-label">02 / The complete collection visual</figcaption>
+                        <figure>
+                            <a class="image-link" href="images/diary/003.webp" data-caption="I moved the night view to the top. My mood board now has an evening personality." aria-label="Enlarge: Proposal 02 - YouTube Landscape"><img src="images/diary/003-small.webp" width="1920" height="1080" loading="lazy" decoding="async" alt="Proposal 02 - YouTube Landscape"></a>
+                            <figcaption>
+                                <span class="image-title">Proposal 02 - YouTube Landscape</span>I moved the night view to the top. My mood board now has an evening personality.
+                            </figcaption>
+                        </figure>
+                        <figure>
+                            <a class="image-link" href="images/diary/004.webp" data-caption="I tried a tall central tower with smaller details beside it. Proportion changes the whole conversation." aria-label="Enlarge: Proposal 03 - YouTube Landscape"><img src="images/diary/004-small.webp" width="1920" height="1080" loading="lazy" decoding="async" alt="Proposal 03 - YouTube Landscape"></a>
+                            <figcaption>
+                                <span class="image-title">Proposal 03 - YouTube Landscape</span>I tried a tall central tower with smaller details beside it. Proportion changes the whole conversation.
+                            </figcaption>
+                        </figure>
+                        <figure>
+                            <a class="image-link" href="images/diary/005.webp" data-caption="I let the aerial view open this version; suddenly the same references feel ready for a night out." aria-label="Enlarge: Proposal 04 - YouTube Landscape"><img src="images/diary/005-small.webp" width="1920" height="1080" loading="lazy" decoding="async" alt="Proposal 04 - YouTube Landscape"></a>
+                            <figcaption>
+                                <span class="image-title">Proposal 04 - YouTube Landscape</span>I let the aerial view open this version; suddenly the same references feel ready for a night out.
+                            </figcaption>
                         </figure>
                     </div>
-                    <div class="collection-meta">
-                        <div>
-                            <h3>The Shanghai Collection</h3>
-                            <p class="muted">An evening couture concept inspired by the spiral form of Shanghai Tower.</p>
-                        </div>
-                        <a href="journal.html" class="button">Read the design diary <span aria-hidden="true">&#8599;</span></a>
-                    </div>
-                    <p class="credit">Collection and atelier visuals are AI-assisted design imagery. Explore the complete reference photographs, sketches, and collection story in <a href="journal.html">the Shanghai Diary</a>.</p>
+                </details>
+            </article>
+            <article class="chapter" id="chapter-02">
+                <div class="chapter-heading">
+                    <p class="eyebrow">Chapter 02 / 2. Color Palette</p>
+                    <h2>My kind of blue hour.</h2>
+                    <p>I wanted silver that feels cool, blue that feels deep, and just enough warmth to keep everything human. This is my little colour agreement before the fabric negotiations begin.</p>
                 </div>
-            </section>
-            <section class="light manifesto" id="maison">
-                <p class="eyebrow">The philosophy</p>
-                <h2>Every city has<br>a <em>silhouette.</em></h2>
-                <p>DressTheWorld is a fashion storytelling project translating internationally recognized architecture into wearable couture, guided by structure, texture, proportion, and the identity of each place.</p>
-            </section>
-            <section class="section" id="process">
-                <div class="wrap">
-                    <div class="process-header">
-                        <p class="eyebrow">The creative journey</p>
-                        <h2>From building<br>to ballroom.</h2>
-                        <p class="muted">A complete design story, filmed from the first inspiration to the final look.</p>
-                    </div>
-                    <div class="process">
-                        <article class="process-card">
-                            <span class="count">01 / SELECT</span>
-                            <h3>The landmark</h3>
-                            <p>Choose a recognizable building and study its lines, form and architectural identity.</p>
-                        </article>
-                        <article class="process-card">
-                            <span class="count">02 / OBSERVE</span>
-                            <h3>The visit</h3>
-                            <p>Explore the building's setting and details, capturing the geometry and mood of the place.</p>
-                        </article>
-                        <article class="process-card">
-                            <span class="count">03 / DRAW</span>
-                            <h3>The sketches</h3>
-                            <p>Translate façade patterns, oblique lines and structural elements into fashion designs.</p>
-                        </article>
-                        <article class="process-card">
-                            <span class="count">04 / SELECT</span>
-                            <h3>The materials</h3>
-                            <p>Match textiles, transparent layers, reflective surfaces and structural accents to the concept.</p>
-                        </article>
-                        <article class="process-card">
-                            <span class="count">05 / CREATE</span>
-                            <h3>The ensemble</h3>
-                            <p>Compose an evening dress with complementary gloves and an architectural hat or headpiece.</p>
-                        </article>
-                        <article class="process-card">
-                            <span class="count">06 / REVEAL</span>
-                            <h3>The fitting</h3>
-                            <p>Refine the proportions on the model and reveal the final cocktail-ready couture look.</p>
-                        </article>
+                <div class="gallery">
+                    <figure>
+                        <a class="image-link" href="images/diary/058.webp" data-caption="I chose silver, blue, and a little champagne. My palette is dressed for the hour when the city starts to glow." aria-label="Enlarge: Shanghai Tower couture palette"><img src="images/diary/058-small.webp" width="1920" height="1080" loading="lazy" decoding="async" alt="Shanghai Tower couture palette"></a>
+                        <figcaption>
+                            <span class="image-title">Shanghai Tower couture palette</span>I chose silver, blue, and a little champagne. My palette is dressed for the hour when the city starts to glow.
+                        </figcaption>
+                    </figure>
+                </div>
+            </article>
+            <article class="chapter" id="chapter-03">
+                <div class="chapter-heading">
+                    <p class="eyebrow">Chapter 03 / 3. Materials and Textures</p>
+                    <h2>Can a skyline feel soft?</h2>
+                    <p>I brought reflective surfaces, sheer layers, beads, and satin onto the table. I want the feeling of glass with something gentler underneath.</p>
+                </div>
+                <div class="gallery">
+                    <figure>
+                        <a class="image-link" href="images/diary/059.webp" data-caption="I laid out satin, sheer layers, beads, and dark blue fabric. Touch is where a mood board gets interesting." aria-label="Enlarge: Material and Texture Swatch Palette"><img src="images/diary/059-small.webp" width="1920" height="1080" loading="lazy" decoding="async" alt="Material and Texture Swatch Palette"></a>
+                        <figcaption>
+                            <span class="image-title">Material and Texture Swatch Palette</span>I laid out satin, sheer layers, beads, and dark blue fabric. Touch is where a mood board gets interesting.
+                        </figcaption>
+                    </figure>
+                </div>
+            </article>
+            <article class="chapter" id="chapter-04">
+                <div class="chapter-heading">
+                    <p class="eyebrow">Chapter 04 / 4. Dress concept</p>
+                    <h2>Several dresses. One obsession.</h2>
+                    <p>I tried sheaths, pleats, drapes, and a peplum before choosing the window spiral. Paper is a wonderful place to change my mind.</p>
+                </div>
+                <div class="sketch-stage">
+                    <p class="sequence-label">01 / Design sketches</p>
+                    <div class="gallery">
+                        <figure>
+                            <a class="image-link" href="images/diary/065.webp" data-caption="I drew the tower, then its spiral, then the dress. For once, my wandering thoughts left a useful paper trail." aria-label="Enlarge: Shanghai Tower to Spiral Dress - Design Sketch"><img src="images/diary/065-small.webp" width="1920" height="1080" loading="lazy" decoding="async" alt="Shanghai Tower to Spiral Dress - Design Sketch"></a>
+                            <figcaption>
+                                <span class="image-title">Shanghai Tower to Spiral Dress - Design Sketch</span>I drew the tower, then its spiral, then the dress. For once, my wandering thoughts left a useful paper trail.
+                            </figcaption>
+                        </figure>
+                        <figure>
+                            <a class="image-link" href="images/diary/060.webp" data-caption="I kept coming back to this short spiral sketch. It has the twist without needing its own skyline." aria-label="Enlarge: Paper Design 01 - Selected Window Spiral"><img src="images/diary/060-small.webp" width="1920" height="1080" loading="lazy" decoding="async" alt="Paper Design 01 - Selected Window Spiral"></a>
+                            <figcaption>
+                                <span class="image-title">Paper Design 01 - Selected Window Spiral</span>I kept coming back to this short spiral sketch. It has the twist without needing its own skyline.
+                            </figcaption>
+                        </figure>
+                        <figure>
+                            <a class="image-link" href="images/diary/061.webp" data-caption="I tried a straighter window-panel sheath; I wanted to see how much structure the idea could carry." aria-label="Enlarge: Paper Design 02 - Structured Window Sheath"><img src="images/diary/061-small.webp" width="1920" height="1080" loading="lazy" decoding="async" alt="Paper Design 02 - Structured Window Sheath"></a>
+                            <figcaption>
+                                <span class="image-title">Paper Design 02 - Structured Window Sheath</span>I tried a straighter window-panel sheath; I wanted to see how much structure the idea could carry.
+                            </figcaption>
+                        </figure>
+                        <figure>
+                            <a class="image-link" href="images/diary/062.webp" data-caption="I let the pleats open out in this version. Sometimes a sketch wants a little more room to dance." aria-label="Enlarge: Paper Design 03 - Pleated Spiral Dress"><img src="images/diary/062-small.webp" width="1920" height="1080" loading="lazy" decoding="async" alt="Paper Design 03 - Pleated Spiral Dress"></a>
+                            <figcaption>
+                                <span class="image-title">Paper Design 03 - Pleated Spiral Dress</span>I let the pleats open out in this version. Sometimes a sketch wants a little more room to dance.
+                            </figcaption>
+                        </figure>
+                        <figure>
+                            <a class="image-link" href="images/diary/063.webp" data-caption="I followed the diagonal into a longer drape. The tower&#x27;s movement suddenly felt almost liquid." aria-label="Enlarge: Paper Design 04 - Soft Window Drape"><img src="images/diary/063-small.webp" width="1920" height="1080" loading="lazy" decoding="async" alt="Paper Design 04 - Soft Window Drape"></a>
+                            <figcaption>
+                                <span class="image-title">Paper Design 04 - Soft Window Drape</span>I followed the diagonal into a longer drape. The tower&#x27;s movement suddenly felt almost liquid.
+                            </figcaption>
+                        </figure>
+                        <figure>
+                            <a class="image-link" href="images/diary/064.webp" data-caption="I tested a peplum and a sharper waist. This version is the most formally dressed of my paper experiments." aria-label="Enlarge: Paper Design 05 - Architectural Peplum"><img src="images/diary/064-small.webp" width="1920" height="1080" loading="lazy" decoding="async" alt="Paper Design 05 - Architectural Peplum"></a>
+                            <figcaption>
+                                <span class="image-title">Paper Design 05 - Architectural Peplum</span>I tested a peplum and a sharper waist. This version is the most formally dressed of my paper experiments.
+                            </figcaption>
+                        </figure>
                     </div>
                 </div>
-            </section>
-            <section class="section" style="background:var(--ink2)" id="world">
-                <div class="wrap">
-                    <p class="eyebrow">Upcoming chapters</p>
-                    <h2>A world of<br><i>inspiration.</i></h2>
-                    <p class="muted">One architectural landmark per country. Each destination inspires a new creation.</p>
-                    <div class="city-row">
-                        <article class="city">
-                            <span class="eyebrow">Chapter 001 / China</span>
-                            <h3>Shanghai</h3>
-                            <p>Shanghai Tower · First collection</p>
-                        </article>
-                        <article class="city">
-                            <span class="eyebrow">Future collection</span>
-                            <h3>New York</h3>
-                            <p>Architectural landmark to be announced</p>
-                        </article>
-                        <article class="city">
-                            <span class="eyebrow">Future collection</span>
-                            <h3>Dubai</h3>
-                            <p>Architectural landmark to be announced</p>
-                        </article>
+            </article>
+            <article class="chapter" id="chapter-05">
+                <div class="chapter-heading">
+                    <p class="eyebrow">Chapter 05 / 5. Glass Facade Pattern</p>
+                    <h2>Window shopping, literally.</h2>
+                    <p>I followed the facade&#x27;s grids and curves into sample studies, then into the bodice. The aim is a connection you can feel without needing an architectural tour.</p>
+                </div>
+                <div class="sketch-stage">
+                    <p class="sequence-label">01 / Design sketches</p>
+                    <div class="gallery">
+                        <figure>
+                            <a class="image-link" href="images/diary/071.webp" data-caption="I translated rectangular windows into a soft grid. My version of glazing comes with thread." aria-label="Enlarge: Window Study 01 - Rectangular Glazing"><img src="images/diary/071-small.webp" width="1920" height="1080" loading="lazy" decoding="async" alt="Window Study 01 - Rectangular Glazing"></a>
+                            <figcaption>
+                                <span class="image-title">Window Study 01 - Rectangular Glazing</span>I translated rectangular windows into a soft grid. My version of glazing comes with thread.
+                            </figcaption>
+                        </figure>
+                        <figure>
+                            <a class="image-link" href="images/diary/072.webp" data-caption="I drew the curved horizontal bands as gentle rows. A rigid reference does not require a rigid dress." aria-label="Enlarge: Window Study 02 - Curved Horizontal Bands"><img src="images/diary/072-small.webp" width="1920" height="1080" loading="lazy" decoding="async" alt="Window Study 02 - Curved Horizontal Bands"></a>
+                            <figcaption>
+                                <span class="image-title">Window Study 02 - Curved Horizontal Bands</span>I drew the curved horizontal bands as gentle rows. A rigid reference does not require a rigid dress.
+                            </figcaption>
+                        </figure>
+                        <figure>
+                            <a class="image-link" href="images/diary/073.webp" data-caption="I followed the facade&#x27;s turning edge and tested a diagonal border on paper." aria-label="Enlarge: Window Study 03 - Twisting Facade Edge"><img src="images/diary/073-small.webp" width="1920" height="1080" loading="lazy" decoding="async" alt="Window Study 03 - Twisting Facade Edge"></a>
+                            <figcaption>
+                                <span class="image-title">Window Study 03 - Twisting Facade Edge</span>I followed the facade&#x27;s turning edge and tested a diagonal border on paper.
+                            </figcaption>
+                        </figure>
+                        <figure>
+                            <a class="image-link" href="images/diary/074.webp" data-caption="I explored a sheer double layer; I like the idea of light passing through instead of simply bouncing back." aria-label="Enlarge: Window Study 04 - Double Skin Transparency"><img src="images/diary/074-small.webp" width="1920" height="1080" loading="lazy" decoding="async" alt="Window Study 04 - Double Skin Transparency"></a>
+                            <figcaption>
+                                <span class="image-title">Window Study 04 - Double Skin Transparency</span>I explored a sheer double layer; I like the idea of light passing through instead of simply bouncing back.
+                            </figcaption>
+                        </figure>
+                        <figure>
+                            <a class="image-link" href="images/diary/075.webp" data-caption="I borrowed the reflective panes for a paler sample. Sparkle is more persuasive when it has a reason." aria-label="Enlarge: Window Study 05 - Sunlit Reflective Panes"><img src="images/diary/075-small.webp" width="1920" height="1080" loading="lazy" decoding="async" alt="Window Study 05 - Sunlit Reflective Panes"></a>
+                            <figcaption>
+                                <span class="image-title">Window Study 05 - Sunlit Reflective Panes</span>I borrowed the reflective panes for a paler sample. Sparkle is more persuasive when it has a reason.
+                            </figcaption>
+                        </figure>
                     </div>
                 </div>
-            </section>
-            <section class="section film" id="films">
-                <div class="wrap">
-                    <p class="eyebrow">Couture in motion</p>
-                    <h2>The films.</h2>
-                    <p class="muted">Architecture, sketches, construction and the final reveal, told through cinematic video.</p>
-                    <div class="film-frame">
-                        <div>
-                            <div class="play" aria-hidden="true">▷</div>
-                            <p>Collection 001 film / coming soon</p>
-                        </div>
+                <div class="image-stage">
+                    <p class="sequence-label">02 / From sketch to image</p>
+                    <div class="gallery">
+                        <figure>
+                            <a class="image-link" href="images/diary/066.webp" data-caption="I kept the reference board beside the bodice so the tiny window lines never lost their connection to the skyline." aria-label="Enlarge: Bodice and Reference Board"><img src="images/diary/066-small.webp" width="1920" height="1080" loading="lazy" decoding="async" alt="Bodice and Reference Board"></a>
+                            <figcaption>
+                                <span class="image-title">Bodice and Reference Board</span>I kept the reference board beside the bodice so the tiny window lines never lost their connection to the skyline.
+                            </figcaption>
+                        </figure>
+                        <figure>
+                            <a class="image-link" href="images/diary/067.webp" data-caption="I zoomed in on the neckline; beads, fine lines, and one diagonal had to learn to share the space." aria-label="Enlarge: Upper Bodice Window Motif"><img src="images/diary/067-small.webp" width="1920" height="1080" loading="lazy" decoding="async" alt="Upper Bodice Window Motif"></a>
+                            <figcaption>
+                                <span class="image-title">Upper Bodice Window Motif</span>I zoomed in on the neckline; beads, fine lines, and one diagonal had to learn to share the space.
+                            </figcaption>
+                        </figure>
+                        <figure>
+                            <a class="image-link" href="images/diary/068.webp" data-caption="I watched the silver rib cross the waist grid. That is the moment the dress found its direction." aria-label="Enlarge: Waist Grid and Diagonal Ribbon"><img src="images/diary/068-small.webp" width="1920" height="1080" loading="lazy" decoding="async" alt="Waist Grid and Diagonal Ribbon"></a>
+                            <figcaption>
+                                <span class="image-title">Waist Grid and Diagonal Ribbon</span>I watched the silver rib cross the waist grid. That is the moment the dress found its direction.
+                            </figcaption>
+                        </figure>
+                        <figure>
+                            <a class="image-link" href="images/diary/069.webp" data-caption="I spread the beaded sample flat. A fabric should be interesting before it ever meets a body." aria-label="Enlarge: Material Sample on the Table"><img src="images/diary/069-small.webp" width="1920" height="1080" loading="lazy" decoding="async" alt="Material Sample on the Table"></a>
+                            <figcaption>
+                                <span class="image-title">Material Sample on the Table</span>I spread the beaded sample flat. A fabric should be interesting before it ever meets a body.
+                            </figcaption>
+                        </figure>
+                        <figure>
+                            <a class="image-link" href="images/diary/070.webp" data-caption="I kept the threads and beads beside the sample; the smallest pieces are doing a remarkable amount of work." aria-label="Enlarge: Beads Thread and Construction"><img src="images/diary/070-small.webp" width="1920" height="1080" loading="lazy" decoding="async" alt="Beads Thread and Construction"></a>
+                            <figcaption>
+                                <span class="image-title">Beads Thread and Construction</span>I kept the threads and beads beside the sample; the smallest pieces are doing a remarkable amount of work.
+                            </figcaption>
+                        </figure>
+                        <figure></figure>
                     </div>
-                    <p class="muted">The official film link will appear here when the first episode is published.</p>
-                    <a class="button" href="about.html">Meet the designer ↗</a>
                 </div>
-            </section>
+            </article>
+            <article class="chapter" id="chapter-06a">
+                <div class="chapter-heading">
+                    <p class="eyebrow">Chapter 06a / 6a. Initial Design Without Diagonal Rib</p>
+                    <h2>Before the silver line.</h2>
+                    <p>I wanted the draping to work before asking one dramatic detail to carry the look. This quieter stage lets me see the shape clearly.</p>
+                </div>
+                <div class="gallery">
+                    <figure>
+                        <a class="image-link" href="images/diary/077.webp" data-caption="I tested the draped silhouette before adding the silver rib. It needed to stand on its own first." aria-label="Enlarge: Silhouette Development - Draping"><img src="images/diary/077-small.webp" width="1920" height="1080" loading="lazy" decoding="async" alt="Silhouette Development - Draping"></a>
+                        <figcaption>
+                            <span class="image-title">Silhouette Development - Draping</span>I tested the draped silhouette before adding the silver rib. It needed to stand on its own first.
+                        </figcaption>
+                    </figure>
+                </div>
+            </article>
+            <article class="chapter" id="chapter-06b">
+                <div class="chapter-heading">
+                    <p class="eyebrow">Chapter 06b / 6b. Design With Diagonal Silver Rib</p>
+                    <h2>The detail that changed the mood.</h2>
+                    <p>I added the silver rib across the drape and suddenly the tower&#x27;s movement felt clearer. Sometimes the answer is one well-placed line.</p>
+                </div>
+                <div class="gallery">
+                    <figure>
+                        <a class="image-link" href="images/diary/078.webp" data-caption="I added the diagonal silver line and the whole dress sharpened up. One detail can be remarkably decisive." aria-label="Enlarge: Dress With Diagonal"><img src="images/diary/078-small.webp" width="1920" height="1080" loading="lazy" decoding="async" alt="Dress With Diagonal"></a>
+                        <figcaption>
+                            <span class="image-title">Dress With Diagonal</span>I added the diagonal silver line and the whole dress sharpened up. One detail can be remarkably decisive.
+                        </figcaption>
+                    </figure>
+                </div>
+            </article>
+            <article class="chapter" id="chapter-07">
+                <div class="chapter-heading">
+                    <p class="eyebrow">Chapter 07 / 7. Hat Design</p>
+                    <h2>A little height of my own.</h2>
+                    <p>I wanted a folded headpiece that echoes the spiral without competing with the dress. Consider it the collection&#x27;s smallest skyline.</p>
+                </div>
+                <div class="sketch-stage">
+                    <p class="sequence-label">01 / Design sketches</p>
+                    <div class="gallery">
+                        <figure>
+                            <a class="image-link" href="images/diary/080.webp" data-caption="I sketched the hat beside its architectural reference. A headpiece deserves an origin story too." aria-label="Enlarge: Fascinator - Design Sketch"><img src="images/diary/080-small.webp" width="1920" height="1080" loading="lazy" decoding="async" alt="Fascinator - Design Sketch"></a>
+                            <figcaption>
+                                <span class="image-title">Fascinator - Design Sketch</span>I sketched the hat beside its architectural reference. A headpiece deserves an origin story too.
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+                <div class="image-stage">
+                    <p class="sequence-label">02 / From sketch to image</p>
+                    <div class="gallery">
+                        <figure>
+                            <a class="image-link" href="images/diary/079.webp" data-caption="I folded the hat into its own small spiral. I wanted a little skyline above the neckline." aria-label="Enlarge: Fascinator"><img src="images/diary/079-small.webp" width="1920" height="1080" loading="lazy" decoding="async" alt="Fascinator"></a>
+                            <figcaption>
+                                <span class="image-title">Fascinator</span>I folded the hat into its own small spiral. I wanted a little skyline above the neckline.
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+            </article>
+            <article class="chapter" id="chapter-08">
+                <div class="chapter-heading">
+                    <p class="eyebrow">Chapter 08 / 8. Fingerless Gloves Design</p>
+                    <h2>Geometry, with fingers free.</h2>
+                    <p>I carried the winding lines onto sheer gloves. I like accessories that join the story and still leave room to hold a pencil.</p>
+                </div>
+                <div class="sketch-stage">
+                    <p class="sequence-label">01 / Design sketches</p>
+                    <div class="gallery">
+                        <figure>
+                            <a class="image-link" href="images/diary/082.webp" data-caption="I drew the glove seams around the hand. The trick was making geometry look comfortable." aria-label="Enlarge: Fingerless Gloves - Design Sketch"><img src="images/diary/082-small.webp" width="1920" height="1080" loading="lazy" decoding="async" alt="Fingerless Gloves - Design Sketch"></a>
+                            <figcaption>
+                                <span class="image-title">Fingerless Gloves - Design Sketch</span>I drew the glove seams around the hand. The trick was making geometry look comfortable.
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+                <div class="image-stage">
+                    <p class="sequence-label">02 / From sketch to image</p>
+                    <div class="gallery">
+                        <figure>
+                            <a class="image-link" href="images/diary/081.webp" data-caption="I laid the fingerless gloves flat to check the winding bands. I like a dramatic cuff with practical fingers." aria-label="Enlarge: Fingerless Gloves - Overhead"><img src="images/diary/081-small.webp" width="1920" height="1080" loading="lazy" decoding="async" alt="Fingerless Gloves - Overhead"></a>
+                            <figcaption>
+                                <span class="image-title">Fingerless Gloves - Overhead</span>I laid the fingerless gloves flat to check the winding bands. I like a dramatic cuff with practical fingers.
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+            </article>
+            <article class="chapter" id="chapter-09">
+                <div class="chapter-heading">
+                    <p class="eyebrow">Chapter 09 / 9. Scarf</p>
+                    <h2>A softer plot twist.</h2>
+                    <p>I let the scarf bring a little movement to all that precision. The window grid stays, but this time it gets to float.</p>
+                </div>
+                <div class="sketch-stage">
+                    <p class="sequence-label">01 / Design sketches</p>
+                    <div class="gallery">
+                        <figure>
+                            <a class="image-link" href="images/diary/083.webp" data-caption="I imagined the scarf as a soft strip of city light, with a fine grid to keep it in the family." aria-label="Enlarge: Couture Scarf - Design Sketch"><img src="images/diary/083-small.webp" width="1920" height="1080" loading="lazy" decoding="async" alt="Couture Scarf - Design Sketch"></a>
+                            <figcaption>
+                                <span class="image-title">Couture Scarf - Design Sketch</span>I imagined the scarf as a soft strip of city light, with a fine grid to keep it in the family.
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+                <div class="image-stage">
+                    <p class="sequence-label">02 / From sketch to image</p>
+                    <div class="gallery">
+                        <figure>
+                            <a class="image-link" href="images/diary/084.webp" data-caption="I let the scarf fall down the mannequin. My favourite kind of structure still leaves room to move." aria-label="Enlarge: Final Scarf - Still Draping"><img src="images/diary/084-small.webp" width="1920" height="1080" loading="lazy" decoding="async" alt="Final Scarf - Still Draping"></a>
+                            <figcaption>
+                                <span class="image-title">Final Scarf - Still Draping</span>I let the scarf fall down the mannequin. My favourite kind of structure still leaves room to move.
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+            </article>
+            <article class="chapter" id="chapter-10">
+                <div class="chapter-heading">
+                    <p class="eyebrow">Chapter 10 / 10. Nail Art</p>
+                    <h2>The skyline at my fingertips.</h2>
+                    <p>I took the palette and window rhythm all the way down to the nails. It is a tiny canvas with an unexpectedly strong opinion.</p>
+                </div>
+                <div class="sketch-stage">
+                    <p class="sequence-label">01 / Design sketches</p>
+                    <div class="gallery">
+                        <figure>
+                            <a class="image-link" href="images/diary/019.webp" data-caption="I drew a different window rhythm on each nail. Matching does not have to mean identical." aria-label="Enlarge: Final Nail Art - Design Sketch"><img src="images/diary/019-small.webp" width="1920" height="1080" loading="lazy" decoding="async" alt="Final Nail Art - Design Sketch"></a>
+                            <figcaption>
+                                <span class="image-title">Final Nail Art - Design Sketch</span>I drew a different window rhythm on each nail. Matching does not have to mean identical.
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+                <div class="image-stage">
+                    <p class="sequence-label">02 / From sketch to image</p>
+                    <div class="gallery">
+                        <figure>
+                            <a class="image-link" href="images/diary/017.webp" data-caption="I imagined the whole skyline on my fingertips. Suddenly a manicure became part of the collection." aria-label="Enlarge: Blue-Hour Shanghai Tower Manicure"><img src="images/diary/017-small.webp" width="1920" height="1080" loading="lazy" decoding="async" alt="Blue-Hour Shanghai Tower Manicure"></a>
+                            <figcaption>
+                                <span class="image-title">Blue-Hour Shanghai Tower Manicure</span>I imagined the whole skyline on my fingertips. Suddenly a manicure became part of the collection.
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+            </article>
+            <article class="chapter" id="chapter-11">
+                <div class="chapter-heading">
+                    <p class="eyebrow">Chapter 11 / 11. Lace-Up Shoes</p>
+                    <h2>A grounded kind of drama.</h2>
+                    <p>I used pointed toes, translucent-looking panels, and winding laces to carry the idea to the floor. The last detail should feel as considered as the first.</p>
+                </div>
+                <div class="sketch-stage">
+                    <p class="sequence-label">01 / Design sketches</p>
+                    <div class="gallery">
+                        <figure>
+                            <a class="image-link" href="images/diary/021.webp" data-caption="I sketched the laces from front to back; a dramatic entrance should survive an exit." aria-label="Enlarge: Lace-Up Shoes - Design Sketch"><img src="images/diary/021-small.webp" width="1920" height="1080" loading="lazy" decoding="async" alt="Lace-Up Shoes - Design Sketch"></a>
+                            <figcaption>
+                                <span class="image-title">Lace-Up Shoes - Design Sketch</span>I sketched the laces from front to back; a dramatic entrance should survive an exit.
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+                <div class="image-stage">
+                    <p class="sequence-label">02 / From sketch to image</p>
+                    <div class="gallery">
+                        <figure>
+                            <a class="image-link" href="images/diary/020.webp" data-caption="I gave the pointed shoes translucent panels and winding straps. My feet apparently wanted architecture too." aria-label="Enlarge: Lace-Up Shoes"><img src="images/diary/020-small.webp" width="1920" height="1080" loading="lazy" decoding="async" alt="Lace-Up Shoes"></a>
+                            <figcaption>
+                                <span class="image-title">Lace-Up Shoes</span>I gave the pointed shoes translucent panels and winding straps. My feet apparently wanted architecture too.
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+            </article>
+            <article class="chapter" id="chapter-12">
+                <div class="chapter-heading">
+                    <p class="eyebrow">Chapter 12 / 12. Complete Look</p>
+                    <h2>Everyone finally gets dressed.</h2>
+                    <p>I put the whole ensemble on the mannequin to check the conversation between the dress and accessories. It is a useful pause before adding a person.</p>
+                </div>
+                <div class="gallery">
+                    <figure>
+                        <a class="image-link" href="images/diary/022.webp" data-caption="I finally put the dress, scarf, hat, gloves, and shoes together. My mannequin has a very full social calendar." aria-label="Enlarge: Complete Couture Look - Final Hat Option 07 - Mannequin"><img src="images/diary/022-small.webp" width="1920" height="1080" loading="lazy" decoding="async" alt="Complete Couture Look - Final Hat Option 07 - Mannequin"></a>
+                        <figcaption>
+                            <span class="image-title">Complete Couture Look - Final Hat Option 07 - Mannequin</span>I finally put the dress, scarf, hat, gloves, and shoes together. My mannequin has a very full social calendar.
+                        </figcaption>
+                    </figure>
+                </div>
+            </article>
+            <article class="chapter" id="chapter-14">
+                <div class="chapter-heading">
+                    <p class="eyebrow">Chapter 14 / 14. Model Casting and Final Look</p>
+                    <h2>Finding the collection’s presence.</h2>
+                    <p>I compared ten casting visuals in the same black dress and atelier setting. Expressions and posture change how I read a silhouette; the board helps me see those differences together.</p>
+                </div>
+                <div class="gallery">
+                    <figure>
+                        <a class="image-link" href="images/diary/033.webp" data-caption="I lined up all ten casting options. Choosing a collection&#x27;s presence takes more than choosing a dress size." aria-label="Enlarge: Model Casting - Working Atelier Board"><img src="images/diary/033-small.webp" width="1920" height="1080" loading="lazy" decoding="async" alt="Model Casting - Working Atelier Board"></a>
+                        <figcaption>
+                            <span class="image-title">Model Casting - Working Atelier Board</span>I lined up all ten casting options. Choosing a collection&#x27;s presence takes more than choosing a dress size.
+                        </figcaption>
+                    </figure>
+                </div>
+            </article>
+            <article class="chapter" id="chapter-15">
+                <div class="chapter-heading">
+                    <p class="eyebrow">Chapter 15 / 15. Model Makeup</p>
+                    <h2>A little glass, around the eyes.</h2>
+                    <p>I translated the cool palette into a face chart, application study, and finished look. I wanted the eyes to echo the collection while the rest of the face stayed soft.</p>
+                </div>
+                <div class="sketch-stage">
+                    <p class="sequence-label">01 / Design sketches</p>
+                    <div class="gallery">
+                        <figure>
+                            <a class="image-link" href="images/diary/034.webp" data-caption="I mapped the silver-blue eye onto paper first. Even a smoky look benefits from a clear plan." aria-label="Enlarge: Window Makeup Design Study"><img src="images/diary/034-small.webp" width="1920" height="1080" loading="lazy" decoding="async" alt="Window Makeup Design Study"></a>
+                            <figcaption>
+                                <span class="image-title">Window Makeup Design Study</span>I mapped the silver-blue eye onto paper first. Even a smoky look benefits from a clear plan.
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+                <div class="image-stage">
+                    <p class="sequence-label">02 / From sketch to image</p>
+                    <div class="gallery">
+                        <figure>
+                            <a class="image-link" href="images/diary/035.webp" data-caption="I watched the brush soften the outer corner. Precision is surprisingly good at looking effortless." aria-label="Enlarge: Window Makeup Application"><img src="images/diary/035-small.webp" width="1920" height="1080" loading="lazy" decoding="async" alt="Window Makeup Application"></a>
+                            <figcaption>
+                                <span class="image-title">Window Makeup Application</span>I watched the brush soften the outer corner. Precision is surprisingly good at looking effortless.
+                            </figcaption>
+                        </figure>
+                        <figure>
+                            <a class="image-link" href="images/diary/036.webp" data-caption="I kept the finished eyes cool and the lips soft. My dress already has plenty to say." aria-label="Enlarge: Finished Window Makeup"><img src="images/diary/036-small.webp" width="1920" height="1080" loading="lazy" decoding="async" alt="Finished Window Makeup"></a>
+                            <figcaption>
+                                <span class="image-title">Finished Window Makeup</span>I kept the finished eyes cool and the lips soft. My dress already has plenty to say.
+                            </figcaption>
+                        </figure>
+                        <figure>
+                            <a class="image-link" href="images/diary/037.webp" data-caption="I added the folded hat and scarf, and the makeup finally met the rest of its outfit." aria-label="Enlarge: Finished Makeup with Final Hat Option 07"><img src="images/diary/037-small.webp" width="1920" height="1080" loading="lazy" decoding="async" alt="Finished Makeup with Final Hat Option 07"></a>
+                            <figcaption>
+                                <span class="image-title">Finished Makeup with Final Hat Option 07</span>I added the folded hat and scarf, and the makeup finally met the rest of its outfit.
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+            </article>
+            <article class="chapter" id="chapter-16">
+                <div class="chapter-heading">
+                    <p class="eyebrow">Chapter 16 / 16. Final Look in the Atelier</p>
+                    <h2>The full picture, at last.</h2>
+                    <p>I brought the dress, makeup, and accessories into one atelier image. This is the moment when all my separate pages begin to read like one collection.</p>
+                </div>
+                <div class="gallery">
+                    <figure>
+                        <a class="image-link" href="images/diary/040.webp" data-caption="I let the full look stand in the atelier for a moment. After so many close-ups, the whole silhouette felt like a reveal." aria-label="Enlarge: Final Model - Couture and Makeup - Hat Option 07"><img src="images/diary/040-small.webp" width="1920" height="1080" loading="lazy" decoding="async" alt="Final Model - Couture and Makeup - Hat Option 07"></a>
+                        <figcaption>
+                            <span class="image-title">Final Model - Couture and Makeup - Hat Option 07</span>I let the full look stand in the atelier for a moment. After so many close-ups, the whole silhouette felt like a reveal.
+                        </figcaption>
+                    </figure>
+                </div>
+            </article>
+            <article class="chapter" id="chapter-17">
+                <div class="chapter-heading">
+                    <p class="eyebrow">Chapter 17 / 17. Final Look - Atelier Day and Night</p>
+                    <h2>The dress has evening plans.</h2>
+                    <p>I imagined the collection beyond the worktable, in lounges, a cocktail bar, and beside a rooftop piano. With or without the accessories, I wanted the dress to feel part of a conversation.</p>
+                </div>
+                <div class="gallery">
+                    <figure>
+                        <a class="image-link" href="images/diary/041.webp" data-caption="I imagined the silver dress among coral and green. It can hold its own without raising its voice." aria-label="Enlarge: Cocktail Lounge - Colorful Guests 01 - Hat Option 07"><img src="images/diary/041-small.webp" width="1920" height="1080" loading="lazy" decoding="async" alt="Cocktail Lounge - Colorful Guests 01 - Hat Option 07"></a>
+                        <figcaption>
+                            <span class="image-title">Cocktail Lounge - Colorful Guests 01 - Hat Option 07</span>I imagined the silver dress among coral and green. It can hold its own without raising its voice.
+                        </figcaption>
+                    </figure>
+                    <figure>
+                        <a class="image-link" href="images/diary/042.webp" data-caption="I tried another lounge scene with warm lights and colourful guests. Silver turns out to be sociable." aria-label="Enlarge: Cocktail Lounge - Colorful Guests 02 - Hat Option 07"><img src="images/diary/042-small.webp" width="1920" height="1080" loading="lazy" decoding="async" alt="Cocktail Lounge - Colorful Guests 02 - Hat Option 07"></a>
+                        <figcaption>
+                            <span class="image-title">Cocktail Lounge - Colorful Guests 02 - Hat Option 07</span>I tried another lounge scene with warm lights and colourful guests. Silver turns out to be sociable.
+                        </figcaption>
+                    </figure>
+                    <figure>
+                        <a class="image-link" href="images/diary/043.webp" data-caption="I imagined a night with the hat and gloves left behind. The dress still knows how to join a conversation." aria-label="Enlarge: Casual Party - Same Dress Without Accessories"><img src="images/diary/043-small.webp" width="1920" height="1080" loading="lazy" decoding="async" alt="Casual Party - Same Dress Without Accessories"></a>
+                        <figcaption>
+                            <span class="image-title">Casual Party - Same Dress Without Accessories</span>I imagined a night with the hat and gloves left behind. The dress still knows how to join a conversation.
+                        </figcaption>
+                    </figure>
+                    <figure>
+                        <a class="image-link" href="images/diary/044.webp" data-caption="I pictured the bare-headed look in a busy cocktail bar; the diagonal line does enough introducing." aria-label="Enlarge: Luxury Cocktail Bar - Colorful Guests - Without Hat"><img src="images/diary/044-small.webp" width="1672" height="941" loading="lazy" decoding="async" alt="Luxury Cocktail Bar - Colorful Guests - Without Hat"></a>
+                        <figcaption>
+                            <span class="image-title">Luxury Cocktail Bar - Colorful Guests - Without Hat</span>I pictured the bare-headed look in a busy cocktail bar; the diagonal line does enough introducing.
+                        </figcaption>
+                    </figure>
+                </div>
+            </article>
         </main>
-        <footer>
-            <div class="wrap">
-                <div class="foot-top">
-                    <div>
-                        <a href="#home" class="wordmark">Dress<span>The</span>World</a>
-                        <p class="muted">Where Architecture Becomes Fashion</p>
-                    </div>
-                    <nav class="footer-links" aria-label="Footer">
-                        <a href="#collection">Collections</a><a href="#maison">Maison</a><a href="#process">Process</a><a href="#films">Films</a><a href="journal.html">Journal</a><a href="about.html">Who Am I?</a>
-                    </nav>
-                </div>
-                <div class="foot-bottom">
-                    <span>© <span id="year">2026</span> DressTheWorld. All rights reserved.</span><span>Architecture · Couture · Film</span>
-                </div>
-            </div>
+        <dialog id="lightbox" aria-label="Image preview">
+            <button id="close-preview" autofocus>Close ×</button><img id="expanded" alt="">
+            <p id="expanded-caption"></p>
+        </dialog>
+        <footer class="site-footer">
+            <span>DressTheWorld · An architectural fashion journal</span><a href="#shanghai-tower">Back to the journal ↑</a>
         </footer>
-        <script>
-const toggle=document.getElementById("menuButton"),nav=document.getElementById("siteNav");
-toggle.addEventListener("click",()=>{const open=nav.classList.toggle("open");toggle.setAttribute("aria-expanded",String(open));});
-nav.querySelectorAll("a").forEach(a=>a.addEventListener("click",()=>{nav.classList.remove("open");toggle.setAttribute("aria-expanded","false");}));
-document.getElementById("year").textContent=String(new Date().getFullYear());
-</script>
     </body>
 </html>
