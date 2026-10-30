@@ -1,7 +1,7 @@
 [
   {
     "id": 0,
-    "source": "1. Shanghai Tower\\1 Shaghai Tower assembly.png",
+    "source": "_Short\\1 Shaghai Tower assembly.png",
     "width": 3840,
     "height": 2160,
     "caption": "I pinned every angle to one board. Apparently my type is tall, reflective, and impossible to fit through a doorway.",
@@ -10,7 +10,8 @@
     "thumbnail": "images/diary/000-small.webp",
     "sha256": "23584a24d99e8087f38c493444b7c869547f8a0ad0db119440816cc12beb9199",
     "display_width": 1920,
-    "display_height": 1080
+    "display_height": 1080,
+    "source_status": "current"
   },
   {
     "id": 1,
@@ -23,7 +24,8 @@
     "thumbnail": "images/diary/001-small.webp",
     "sha256": "368c6da607619c2d149a839b4d01100e753769e38bfee92b2ecd39c796c4b981",
     "display_width": 1920,
-    "display_height": 1080
+    "display_height": 1080,
+    "source_status": "current"
   },
   {
     "id": 2,
@@ -36,7 +38,8 @@
     "thumbnail": "images/diary/002-small.webp",
     "sha256": "287a68310448a1d521ca48b38913a31379d6f377f034451bdf50f670ff2db583",
     "display_width": 1920,
-    "display_height": 1080
+    "display_height": 1080,
+    "source_status": "current"
   },
   {
     "id": 3,
@@ -49,7 +52,8 @@
     "thumbnail": "images/diary/003-small.webp",
     "sha256": "d5c54eee4a650fb8494b53745a1b2eb3c08b0ec2566c51571735367208948c34",
     "display_width": 1920,
-    "display_height": 1080
+    "display_height": 1080,
+    "source_status": "current"
   },
   {
     "id": 4,
@@ -62,7 +66,8 @@
     "thumbnail": "images/diary/004-small.webp",
     "sha256": "a2f4a36fbc871a279a5e7153251891eb7d9f712feb5d2b19f6a3416b4cd25b64",
     "display_width": 1920,
-    "display_height": 1080
+    "display_height": 1080,
+    "source_status": "current"
   },
   {
     "id": 5,
@@ -75,7 +80,8 @@
     "thumbnail": "images/diary/005-small.webp",
     "sha256": "17481d63e722d389c4fc2343181b1e08214b4273abb50de8b2c203d9328924c6",
     "display_width": 1920,
-    "display_height": 1080
+    "display_height": 1080,
+    "source_status": "current"
   },
   {
     "id": 6,
@@ -88,7 +94,8 @@
     "thumbnail": "images/diary/006-small.webp",
     "sha256": "336ef2b7c74e04113ee0d6f319f3fe291677ae08adb0198f1f20852ae8e5632a",
     "display_width": 1920,
-    "display_height": 1080
+    "display_height": 1080,
+    "source_status": "current"
   },
   {
     "id": 7,
@@ -101,7 +108,8 @@
     "thumbnail": "images/diary/007-small.webp",
     "sha256": "cf50965a4288bc28a9af55dc32e55d19727032854a5411ff6551c022cf3cf471",
     "display_width": 1920,
-    "display_height": 1080
+    "display_height": 1080,
+    "source_status": "current"
   },
   {
     "id": 8,
@@ -114,7 +122,8 @@
     "thumbnail": "images/diary/008-small.webp",
     "sha256": "fcef722575ca4ff262337f662c138c0747a7c1a904e0e105e8d8b98929de77ff",
     "display_width": 1920,
-    "display_height": 1080
+    "display_height": 1080,
+    "source_status": "current"
   },
   {
     "id": 9,
@@ -127,7 +136,8 @@
     "thumbnail": "images/diary/009-small.webp",
     "sha256": "9032b336e9b8a170d387fcd713985fea8b27624be26a422b4b101481bf0e085e",
     "display_width": 1920,
-    "display_height": 1080
+    "display_height": 1080,
+    "source_status": "current"
   },
   {
     "id": 10,
@@ -140,7 +150,8 @@
     "thumbnail": "images/diary/010-small.webp",
     "sha256": "accb71a0025fd70e2af2cc6dc4e26956a731a410db2d945792df36213a55a59e",
     "display_width": 1920,
-    "display_height": 1080
+    "display_height": 1080,
+    "source_status": "current"
   },
   {
     "id": 11,
@@ -153,11 +164,12 @@
     "thumbnail": "images/diary/011-small.webp",
     "sha256": "a2f4a36fbc871a279a5e7153251891eb7d9f712feb5d2b19f6a3416b4cd25b64",
     "display_width": 1920,
-    "display_height": 1080
+    "display_height": 1080,
+    "source_status": "current"
   },
   {
     "id": 12,
-    "source": "1. Shanghai Tower\\exec-7bb4c921-7ec0-4967-8e3a-d131fa0edbe5.png",
+    "source": "1. Shanghai Tower\\8 Panel Proposals\\exec-7bb4c921-7ec0-4967-8e3a-d131fa0edbe5.png",
     "width": 3840,
     "height": 2160,
     "caption": "I tried balancing the night lights against blue glass. Neither seems interested in being the supporting act.",
@@ -166,11 +178,12 @@
     "thumbnail": "images/diary/012-small.webp",
     "sha256": "374dabdb11c007ce52b7948486a498a83cbf30e5f708275deaef250613107d50",
     "display_width": 1920,
-    "display_height": 1080
+    "display_height": 1080,
+    "source_status": "current"
   },
   {
     "id": 13,
-    "source": "1. Shanghai Tower\\exec-89c0e5c5-a491-403d-99fe-d1bd44106e46.png",
+    "source": "1. Shanghai Tower\\8 Panel Proposals\\exec-89c0e5c5-a491-403d-99fe-d1bd44106e46.png",
     "width": 3840,
     "height": 2160,
     "caption": "I put the tall view on the right this time; even a mood board needs a good side.",
@@ -179,11 +192,12 @@
     "thumbnail": "images/diary/013-small.webp",
     "sha256": "d5c54eee4a650fb8494b53745a1b2eb3c08b0ec2566c51571735367208948c34",
     "display_width": 1920,
-    "display_height": 1080
+    "display_height": 1080,
+    "source_status": "current"
   },
   {
     "id": 14,
-    "source": "1. Shanghai Tower\\exec-ce8a7275-7d47-4b9b-b30b-9744468cee75.png",
+    "source": "1. Shanghai Tower\\8 Panel Proposals\\exec-ce8a7275-7d47-4b9b-b30b-9744468cee75.png",
     "width": 3840,
     "height": 2160,
     "caption": "I tried one more arrangement of the tower and its details. I wanted the board to feel like a story, not a filing cabinet.",
@@ -192,7 +206,8 @@
     "thumbnail": "images/diary/014-small.webp",
     "sha256": "287a68310448a1d521ca48b38913a31379d6f377f034451bdf50f670ff2db583",
     "display_width": 1920,
-    "display_height": 1080
+    "display_height": 1080,
+    "source_status": "current"
   },
   {
     "id": 15,
@@ -205,7 +220,8 @@
     "thumbnail": "images/diary/015-small.webp",
     "sha256": "1394112b2e05b590ed6e59249799bbb0ff6d98891fab61d8ea43f4d39120677c",
     "display_width": 1920,
-    "display_height": 1080
+    "display_height": 1080,
+    "source_status": "current"
   },
   {
     "id": 16,
@@ -218,7 +234,8 @@
     "thumbnail": "images/diary/016-small.webp",
     "sha256": "360504333969edd13fe60bcec86322368ae40cfb34921112b23ed20cc0e0a943",
     "display_width": 1920,
-    "display_height": 1080
+    "display_height": 1080,
+    "source_status": "current"
   },
   {
     "id": 17,
@@ -231,7 +248,8 @@
     "thumbnail": "images/diary/017-small.webp",
     "sha256": "d3eaebb36980e57001a061bb755c09b9cf370fb6bf22f3eb505cfa54c8d6821c",
     "display_width": 1920,
-    "display_height": 1080
+    "display_height": 1080,
+    "source_status": "current"
   },
   {
     "id": 18,
@@ -244,7 +262,8 @@
     "thumbnail": "images/diary/018-small.webp",
     "sha256": "906cf55d3a28af00b02ef2e262aef10533a5a7bd39a6708addcfd1801d1f9b08",
     "display_width": 1920,
-    "display_height": 1080
+    "display_height": 1080,
+    "source_status": "current"
   },
   {
     "id": 19,
@@ -257,7 +276,8 @@
     "thumbnail": "images/diary/019-small.webp",
     "sha256": "c8f5dc29463ff0b83611f0411ccf7bf55264d3d5e17134b441fcf7ac614958ba",
     "display_width": 1920,
-    "display_height": 1080
+    "display_height": 1080,
+    "source_status": "current"
   },
   {
     "id": 20,
@@ -270,7 +290,8 @@
     "thumbnail": "images/diary/020-small.webp",
     "sha256": "d2e362cec40f50cda0a4b23cca8d1cfd9321630f0f70203f95d74064408140f5",
     "display_width": 1920,
-    "display_height": 1080
+    "display_height": 1080,
+    "source_status": "current"
   },
   {
     "id": 21,
@@ -283,24 +304,26 @@
     "thumbnail": "images/diary/021-small.webp",
     "sha256": "808abacfb4c730d8a27243311678f30b63a309fa34be5d849f6c56456f7aee9c",
     "display_width": 1920,
-    "display_height": 1080
+    "display_height": 1080,
+    "source_status": "current"
   },
   {
     "id": 22,
-    "source": "12. Complete Look\\Complete Couture Look - Final Hat Option 07 - Mannequin.png",
+    "source": "12. Complete Look\\12 Complete Couture Look - Final Hat Option 07 - Mannequin.png",
     "width": 3840,
     "height": 2160,
     "caption": "I finally put the dress, scarf, hat, gloves, and shoes together. My mannequin has a very full social calendar.",
     "title": "Complete Couture Look - Final Hat Option 07 - Mannequin",
     "image": "images/diary/022.webp",
     "thumbnail": "images/diary/022-small.webp",
-    "sha256": "5197be89417384f65dc9f5bae46c2f5b10a0cd0be368fdaa8e7ff95766d1efe4",
+    "sha256": "72c3e4e8c0d838d86afb4397c465ce8fbbafa37aef266624be938061f7f60782",
     "display_width": 1920,
-    "display_height": 1080
+    "display_height": 1080,
+    "source_status": "current"
   },
   {
     "id": 23,
-    "source": "14. Model Casting and Final Look\\Model 01 - Black Cocktail Dress.png",
+    "source": "14. Model Casting and Final Look\\Single models\\Model 01 - Black Cocktail Dress.png",
     "width": 3840,
     "height": 2160,
     "caption": "I started casting with a simple black dress; the first pose feels calm enough to let the silhouette speak.",
@@ -309,11 +332,12 @@
     "thumbnail": "images/diary/023-small.webp",
     "sha256": "cad9e9ca04eab74ce9a99ba219c85e127f37dc2d116027172b6b4d4b84f435ba",
     "display_width": 1920,
-    "display_height": 1080
+    "display_height": 1080,
+    "source_status": "current"
   },
   {
     "id": 24,
-    "source": "14. Model Casting and Final Look\\Model 02 - Black Cocktail Dress.png",
+    "source": "14. Model Casting and Final Look\\Single models\\Model 02 - Black Cocktail Dress.png",
     "width": 3840,
     "height": 2160,
     "caption": "I liked this straight stance and long dark hair against the busy shelves. Sometimes stillness does the work.",
@@ -322,11 +346,12 @@
     "thumbnail": "images/diary/024-small.webp",
     "sha256": "2cfe63b0d6c264f75ee90c35feba62ea9e9f5f0a5fb31676a5e43e56f78a213f",
     "display_width": 1920,
-    "display_height": 1080
+    "display_height": 1080,
+    "source_status": "current"
   },
   {
     "id": 25,
-    "source": "14. Model Casting and Final Look\\Model 03 - Black Cocktail Dress.png",
+    "source": "14. Model Casting and Final Look\\Single models\\Model 03 - Black Cocktail Dress.png",
     "width": 3840,
     "height": 2160,
     "caption": "I watched what a hand at the waist did to the line. One small gesture, entirely different energy.",
@@ -335,11 +360,12 @@
     "thumbnail": "images/diary/025-small.webp",
     "sha256": "587338ab5dc82e6b065d83cf39dfa7b88bece87c21678e8cdcd114d6e4419944",
     "display_width": 1920,
-    "display_height": 1080
+    "display_height": 1080,
+    "source_status": "current"
   },
   {
     "id": 26,
-    "source": "14. Model Casting and Final Look\\Model 04 - Black Cocktail Dress.png",
+    "source": "14. Model Casting and Final Look\\Single models\\Model 04 - Black Cocktail Dress.png",
     "width": 3840,
     "height": 2160,
     "caption": "I kept this softer stance on the board. I want the dress to move with a person, not just occupy a room.",
@@ -348,11 +374,12 @@
     "thumbnail": "images/diary/026-small.webp",
     "sha256": "51ff196ac00367361776e664fcd185bc3cfaba883c483fe4ee1e1bf23f427ec2",
     "display_width": 1920,
-    "display_height": 1080
+    "display_height": 1080,
+    "source_status": "current"
   },
   {
     "id": 27,
-    "source": "14. Model Casting and Final Look\\Model 05 - Black Cocktail Dress.png",
+    "source": "14. Model Casting and Final Look\\Single models\\Model 05 - Black Cocktail Dress.png",
     "width": 3840,
     "height": 2160,
     "caption": "I liked the short hair and folded arms here; the clean neckline suddenly felt sharper.",
@@ -361,11 +388,12 @@
     "thumbnail": "images/diary/027-small.webp",
     "sha256": "a0a181df147bfa64cbe9fe45ad91d66b455f0e3dea3bef783cbd7955a6208587",
     "display_width": 1920,
-    "display_height": 1080
+    "display_height": 1080,
+    "source_status": "current"
   },
   {
     "id": 28,
-    "source": "14. Model Casting and Final Look\\Model 06 - Black Cocktail Dress.png",
+    "source": "14. Model Casting and Final Look\\Single models\\Model 06 - Black Cocktail Dress.png",
     "width": 3840,
     "height": 2160,
     "caption": "I added this smiling option because I want room for warmth in all that silver.",
@@ -374,11 +402,12 @@
     "thumbnail": "images/diary/028-small.webp",
     "sha256": "77a42b178be5e7c123af5ab83949c0ac25a56316da537cfa1638ab6f45c602c7",
     "display_width": 1920,
-    "display_height": 1080
+    "display_height": 1080,
+    "source_status": "current"
   },
   {
     "id": 29,
-    "source": "14. Model Casting and Final Look\\Model 07 - Black Cocktail Dress.png",
+    "source": "14. Model Casting and Final Look\\Single models\\Model 07 - Black Cocktail Dress.png",
     "width": 3840,
     "height": 2160,
     "caption": "I studied this relaxed, slightly angled pose. Confidence can be quieter than a runway turn.",
@@ -387,11 +416,12 @@
     "thumbnail": "images/diary/029-small.webp",
     "sha256": "0de11557434423e33fc82af36a5a18a1f61be8011bafac3781ece9f039083aa2",
     "display_width": 1920,
-    "display_height": 1080
+    "display_height": 1080,
+    "source_status": "current"
   },
   {
     "id": 30,
-    "source": "14. Model Casting and Final Look\\Model 08 - Black Cocktail Dress.png",
+    "source": "14. Model Casting and Final Look\\Single models\\Model 08 - Black Cocktail Dress.png",
     "width": 3840,
     "height": 2160,
     "caption": "I liked the gentle smile and hands together; not every fitting needs a grand gesture.",
@@ -400,11 +430,12 @@
     "thumbnail": "images/diary/030-small.webp",
     "sha256": "0c3ca599dba32da87951e6c52b3486a5b8a2e5f32882c12ea9259f060a3bab5d",
     "display_width": 1920,
-    "display_height": 1080
+    "display_height": 1080,
+    "source_status": "current"
   },
   {
     "id": 31,
-    "source": "14. Model Casting and Final Look\\Model 09 - Black Cocktail Dress.png",
+    "source": "14. Model Casting and Final Look\\Single models\\Model 09 - Black Cocktail Dress.png",
     "width": 3840,
     "height": 2160,
     "caption": "I kept this crossed-arm pose for its composed mood. A little reserve can make the clothes more intriguing.",
@@ -413,11 +444,12 @@
     "thumbnail": "images/diary/031-small.webp",
     "sha256": "3871b557d15cf4410da842537c13a0ee7ccbf7d6de6aea2f9d6908e887ffcda3",
     "display_width": 1920,
-    "display_height": 1080
+    "display_height": 1080,
+    "source_status": "current"
   },
   {
     "id": 32,
-    "source": "14. Model Casting and Final Look\\Model 10 - Black Cocktail Dress.png",
+    "source": "14. Model Casting and Final Look\\Single models\\Model 10 - Black Cocktail Dress.png",
     "width": 3840,
     "height": 2160,
     "caption": "I liked the hand-on-hip stance here; I could already imagine the diagonal rib catching the light.",
@@ -426,7 +458,8 @@
     "thumbnail": "images/diary/032-small.webp",
     "sha256": "5dd0c3769bdbf8da815eb093e495e84cc1fea0b31c2b6fd415519851edfa1e53",
     "display_width": 1920,
-    "display_height": 1080
+    "display_height": 1080,
+    "source_status": "current"
   },
   {
     "id": 33,
@@ -439,11 +472,12 @@
     "thumbnail": "images/diary/033-small.webp",
     "sha256": "9ff1057bab520e306ad0f10332caa6a5182e58216db4304acd966b0a80e2c5b5",
     "display_width": 1920,
-    "display_height": 1080
+    "display_height": 1080,
+    "source_status": "current"
   },
   {
     "id": 34,
-    "source": "15. Model Makeup\\01 - Window Makeup Design Study.png",
+    "source": "15. Model Makeup\\15 01 - Window Makeup Design Study.png",
     "width": 3840,
     "height": 2160,
     "caption": "I mapped the silver-blue eye onto paper first. Even a smoky look benefits from a clear plan.",
@@ -452,11 +486,12 @@
     "thumbnail": "images/diary/034-small.webp",
     "sha256": "f5f2dde9b23d9aaca85da3e49386eb2f78a18ccbf74af7f8dc155a234d92dd74",
     "display_width": 1920,
-    "display_height": 1080
+    "display_height": 1080,
+    "source_status": "current"
   },
   {
     "id": 35,
-    "source": "15. Model Makeup\\02 - Window Makeup Application.png",
+    "source": "15. Model Makeup\\15 02 - Window Makeup Application.png",
     "width": 3840,
     "height": 2160,
     "caption": "I watched the brush soften the outer corner. Precision is surprisingly good at looking effortless.",
@@ -465,11 +500,12 @@
     "thumbnail": "images/diary/035-small.webp",
     "sha256": "c044f3826e65f587eec5700874d0023cb80106a8b354bd7157ecf38e565744a2",
     "display_width": 1920,
-    "display_height": 1080
+    "display_height": 1080,
+    "source_status": "current"
   },
   {
     "id": 36,
-    "source": "15. Model Makeup\\03 - Finished Window Makeup.png",
+    "source": "15. Model Makeup\\15 03 - Finished Window Makeup.png",
     "width": 3840,
     "height": 2160,
     "caption": "I kept the finished eyes cool and the lips soft. My dress already has plenty to say.",
@@ -478,24 +514,26 @@
     "thumbnail": "images/diary/036-small.webp",
     "sha256": "522e189acb3ae7c7b822edc18b3c9649ae7ce93d7cddff4242650658c67b7798",
     "display_width": 1920,
-    "display_height": 1080
+    "display_height": 1080,
+    "source_status": "current"
   },
   {
     "id": 37,
-    "source": "15. Model Makeup\\04 - Finished Makeup with Final Hat Option 07.png",
+    "source": "15. Model Makeup\\15 04 - Finished Makeup with Final Hat Option 07.png",
     "width": 3840,
     "height": 2160,
     "caption": "I added the folded hat and scarf, and the makeup finally met the rest of its outfit.",
     "title": "Finished Makeup with Final Hat Option 07",
     "image": "images/diary/037.webp",
     "thumbnail": "images/diary/037-small.webp",
-    "sha256": "cdfa1e84a63e416d631052c51825d7be0bda7dfe5b45e9c23414d6979ecb2e9f",
+    "sha256": "3883795d6f7516d231313a36ad517f31e86d4abbb17f673efe3c0dd8d9fd8672",
     "display_width": 1920,
-    "display_height": 1080
+    "display_height": 1080,
+    "source_status": "current"
   },
   {
     "id": 38,
-    "source": "15. Model Makeup\\Window Makeup - Combination 01 - 4K.png",
+    "source": "15. Model Makeup\\15 Window Makeup - Combination 01 - 4K.png",
     "width": 3840,
     "height": 2160,
     "caption": "I paired the drawing with the finished look to see which pencil promises survived the mirror.",
@@ -504,11 +542,12 @@
     "thumbnail": "images/diary/038-small.webp",
     "sha256": "0f7f54e12409feaf2bf813dacc50a645a1508fc58076ddbcbfad94bb9abba7c6",
     "display_width": 1920,
-    "display_height": 1080
+    "display_height": 1080,
+    "source_status": "current"
   },
   {
     "id": 39,
-    "source": "15. Model Makeup\\Window Makeup - Combination 04 - 4K.png",
+    "source": "15. Model Makeup\\15 Window Makeup - Combination 04 - 4K.png",
     "width": 3840,
     "height": 2160,
     "caption": "I pinned the portrait beneath the face chart. I like seeing an idea and its answer in the same frame.",
@@ -517,59 +556,64 @@
     "thumbnail": "images/diary/039-small.webp",
     "sha256": "4f9cedc3a4d3f0b3b822f62daba3738405498540f3095f2b4050b67e646ec3ad",
     "display_width": 1920,
-    "display_height": 1080
+    "display_height": 1080,
+    "source_status": "current"
   },
   {
     "id": 40,
-    "source": "16. Final Look in the Atelier\\Final Model - Couture and Makeup - Hat Option 07.png",
-    "width": 3840,
-    "height": 2160,
+    "source": "16. Final Look in the Atelier\\16 Final Model - Couture and Makeup - Hat Option 07.png",
+    "width": 1672,
+    "height": 941,
     "caption": "I let the full look stand in the atelier for a moment. After so many close-ups, the whole silhouette felt like a reveal.",
     "title": "Final Model - Couture and Makeup - Hat Option 07",
     "image": "images/diary/040.webp",
     "thumbnail": "images/diary/040-small.webp",
-    "sha256": "abc406cd58aea7ce06d57233408b2fa67546b242dc1bbcdd83cd9a0aa4dd05bf",
+    "sha256": "0a80b95556a5a627c87b7f5703df16136009fb0122bb464165dccf69ee57105e",
     "display_width": 1920,
-    "display_height": 1080
+    "display_height": 1080,
+    "source_status": "current"
   },
   {
     "id": 41,
-    "source": "17. Final Look - Atelier Day and Night\\06f - Cocktail Lounge - Colorful Guests 01 - Hat Option 07.png",
+    "source": "17. Final Look - Atelier Day and Night\\17a.png",
     "width": 3840,
     "height": 2160,
-    "caption": "I imagined the silver dress among coral and green. It can hold its own without raising its voice.",
-    "title": "Cocktail Lounge - Colorful Guests 01 - Hat Option 07",
+    "caption": "I brought the Shanghai silhouette into a relaxed rooftop gathering.",
+    "title": "Couture at the rooftop gathering",
     "image": "images/diary/041.webp",
     "thumbnail": "images/diary/041-small.webp",
-    "sha256": "7ba699e818794ea06821d673f9cb71c1ce28d8ef27f50edfe16dbeb460aaad10",
+    "sha256": "3ea345006dabb1b85fece2c93311654a6710362d1ce0f776d6345d9420613da6",
     "display_width": 1920,
-    "display_height": 1080
+    "display_height": 1080,
+    "source_status": "current"
   },
   {
     "id": 42,
-    "source": "17. Final Look - Atelier Day and Night\\06g - Cocktail Lounge - Colorful Guests 02 - Hat Option 07.png",
+    "source": "17. Final Look - Atelier Day and Night\\17b.png",
     "width": 3840,
     "height": 2160,
-    "caption": "I tried another lounge scene with warm lights and colourful guests. Silver turns out to be sociable.",
-    "title": "Cocktail Lounge - Colorful Guests 02 - Hat Option 07",
+    "caption": "The blue and silver dress joins the colour and movement of an evening reception.",
+    "title": "Couture at the evening reception",
     "image": "images/diary/042.webp",
     "thumbnail": "images/diary/042-small.webp",
-    "sha256": "e1ae6445b3f7ae7695511fe1431ddbd3c9e104ff33dc27e24da1dcffdedf219a",
+    "sha256": "7a798656668e75e7599fce3b9bf06a8a6488efe853631cace4a873e0c3f32be4",
     "display_width": 1920,
-    "display_height": 1080
+    "display_height": 1080,
+    "source_status": "current"
   },
   {
     "id": 43,
-    "source": "17. Final Look - Atelier Day and Night\\07 - Casual Party - Same Dress Without Accessories.png",
+    "source": "17. Final Look - Atelier Day and Night\\06d - Cocktail Party - Natural Candid Photo - Hat Option 07.png",
     "width": 3840,
     "height": 2160,
-    "caption": "I imagined a night with the hat and gloves left behind. The dress still knows how to join a conversation.",
-    "title": "Casual Party - Same Dress Without Accessories",
+    "caption": "The finished look meets a lively conversation at the cocktail party.",
+    "title": "Couture at the cocktail party",
     "image": "images/diary/043.webp",
     "thumbnail": "images/diary/043-small.webp",
-    "sha256": "5d44b8ec2765f8cdcc4e4e20ebed853a395cc6ccad42cc1c9b1d07398948d259",
+    "sha256": "12781fac33a159c4b9c331fdf54bed5539cc6a1a6859431bf89134604a178fb1",
     "display_width": 1920,
-    "display_height": 1080
+    "display_height": 1080,
+    "source_status": "current"
   },
   {
     "id": 44,
@@ -582,7 +626,8 @@
     "thumbnail": "images/diary/044-small.webp",
     "sha256": "837144230a1b55e80e4e5ecedcf3645d41aa3707fc7c21e202c1befc2daecb97",
     "display_width": 1672,
-    "display_height": 941
+    "display_height": 941,
+    "source_status": "retired_or_unavailable"
   },
   {
     "id": 45,
@@ -595,20 +640,22 @@
     "thumbnail": "images/diary/045-small.webp",
     "sha256": "10dff224ab92e4a0326984e82797788c6c3901e1da380bf9050acd6e8618ee1f",
     "display_width": 1672,
-    "display_height": 941
+    "display_height": 941,
+    "source_status": "retired_or_unavailable"
   },
   {
     "id": 46,
-    "source": "17. Final Look - Atelier Day and Night\\Backup\\06d - Cocktail Party - Natural Candid Photo - Hat Option 07.png",
+    "source": "17. Final Look - Atelier Day and Night\\06d - Cocktail Party - Natural Candid Photo - Hat Option 07.png",
     "width": 3840,
     "height": 2160,
     "caption": "I kept this earlier party scene in the archive; I liked the contrast between the hat and the relaxed conversation.",
     "title": "Cocktail Party - Natural Candid Photo - Hat Option 07",
     "image": "images/diary/046.webp",
     "thumbnail": "images/diary/046-small.webp",
-    "sha256": "90d0ad55fad6aa3d8eee7c94460a605bf31e8db49a20f9deb2517b0eb9eda06e",
+    "sha256": "12781fac33a159c4b9c331fdf54bed5539cc6a1a6859431bf89134604a178fb1",
     "display_width": 1920,
-    "display_height": 1080
+    "display_height": 1080,
+    "source_status": "current"
   },
   {
     "id": 47,
@@ -621,72 +668,78 @@
     "thumbnail": "images/diary/047-small.webp",
     "sha256": "7e272fe668cc7ea7f9938a7e198629de79967c2780d351c9c41fc133716a03c1",
     "display_width": 1920,
-    "display_height": 1080
+    "display_height": 1080,
+    "source_status": "retired_or_unavailable"
   },
   {
     "id": 48,
-    "source": "18.Atelier\\Archivie\\01 - Atelier Establishing View.png",
-    "width": 3840,
-    "height": 2160,
+    "source": "19. Atelier\\Atelier - Red Camera View - Consistent.png",
+    "width": 1672,
+    "height": 941,
     "caption": "I wanted an atelier with warm lamps, long tables, and enough room for an idea to spread out.",
     "title": "Atelier Establishing View",
     "image": "images/diary/048.webp",
     "thumbnail": "images/diary/048-small.webp",
-    "sha256": "2cce06fdeba982b1f57bd4fc87eed5fa5c570e168137468717d4e3428eea5b16",
+    "sha256": "b31a7efb6e83a87f08fef3478618f0ca3473c07c8cac65c7c824e632603f578e",
     "display_width": 1920,
-    "display_height": 1080
+    "display_height": 1080,
+    "source_status": "current"
   },
   {
     "id": 49,
-    "source": "18.Atelier\\Archivie\\02 - Atelier Sewing Station Angle.png",
-    "width": 3840,
-    "height": 2160,
+    "source": "19. Atelier\\Atelier - Friends Lounge - Consistent.png",
+    "width": 1672,
+    "height": 941,
     "caption": "I gave the sewing machine its own corner. Glamour has a practical side, and mine needs a power socket.",
     "title": "Atelier Sewing Station Angle",
     "image": "images/diary/049.webp",
     "thumbnail": "images/diary/049-small.webp",
-    "sha256": "8e98c8d38fd30e7238692f1ed87e6f67330d283329d8608deb5685a0d6be3967",
+    "sha256": "b3957443e6c37ef932352657261b3518a4d55a20723f06860edd213175c11136",
     "display_width": 1920,
-    "display_height": 1080
+    "display_height": 1080,
+    "source_status": "current"
   },
   {
     "id": 50,
-    "source": "18.Atelier\\Archivie\\03 - Atelier Fabric Shelf Angle.png",
-    "width": 3840,
-    "height": 2160,
+    "source": "19. Atelier\\Atelier - Fabric Storage View - Consistent.png",
+    "width": 1672,
+    "height": 941,
     "caption": "I looked from the fabric rolls to the cutting table and saw a room full of possible dresses.",
     "title": "Atelier Fabric Shelf Angle",
     "image": "images/diary/050.webp",
     "thumbnail": "images/diary/050-small.webp",
-    "sha256": "bab4110128a88647443abaaf5cf9f586589e8be23b92b2cd6a443052827d917b",
+    "sha256": "181b284cadeb6ffd99b336d959ee3262f5690969a9c12e616d8d11fc1bd4aecf",
     "display_width": 1920,
-    "display_height": 1080
+    "display_height": 1080,
+    "source_status": "current"
   },
   {
     "id": 51,
-    "source": "18.Atelier\\Archivie\\04 - Atelier Elevated Corner Angle.png",
-    "width": 3840,
-    "height": 2160,
+    "source": "19. Atelier\\Atelier - Sewing and Fabric View - Consistent.png",
+    "width": 1672,
+    "height": 941,
     "caption": "I tried an elevated view to understand the work space. Even creativity occasionally needs a floor plan.",
     "title": "Atelier Elevated Corner Angle",
     "image": "images/diary/051.webp",
     "thumbnail": "images/diary/051-small.webp",
-    "sha256": "819a6de9533b5ebbf754b513692aab3876e533952f7d3d85dc840a1431e7956b",
+    "sha256": "e440bfe7c2dcf0354b4b5274fae3c9662389d138993c3e8fae3b7971adf74855",
     "display_width": 1920,
-    "display_height": 1080
+    "display_height": 1080,
+    "source_status": "current"
   },
   {
     "id": 52,
-    "source": "18.Atelier\\Archivie\\05 - Atelier Cutting Table Angle.png",
-    "width": 3840,
-    "height": 2160,
-    "caption": "I liked this view across the cutting table; the mannequin at the back feels like a patient collaborator.",
-    "title": "Atelier Cutting Table Angle",
+    "source": "19. Atelier\\Atelier - Sewing and Fabric View - Consistent.png",
+    "width": 1672,
+    "height": 941,
+    "caption": "The current atelier study brings the sewing station and fabric storage together.",
+    "title": "Atelier sewing and fabric workspace",
     "image": "images/diary/052.webp",
     "thumbnail": "images/diary/052-small.webp",
-    "sha256": "f6b32e56c45ea88776db3e641e2efaf1f7d433207b20255068cb11c7107f417c",
+    "sha256": "e440bfe7c2dcf0354b4b5274fae3c9662389d138993c3e8fae3b7971adf74855",
     "display_width": 1920,
-    "display_height": 1080
+    "display_height": 1080,
+    "source_status": "current"
   },
   {
     "id": 53,
@@ -699,7 +752,8 @@
     "thumbnail": "images/diary/053-small.webp",
     "sha256": "2a70568c61ac0090b6b1b125f92dfb9f4af9e7d6b2435865f8dd8da756c7ea57",
     "display_width": 1920,
-    "display_height": 1080
+    "display_height": 1080,
+    "source_status": "retired_or_unavailable"
   },
   {
     "id": 54,
@@ -712,7 +766,8 @@
     "thumbnail": "images/diary/054-small.webp",
     "sha256": "79659ce9e8864c421eb1471b345ca5bc64afd2cf3641111d0ed1e08f558bdb83",
     "display_width": 1920,
-    "display_height": 1080
+    "display_height": 1080,
+    "source_status": "retired_or_unavailable"
   },
   {
     "id": 55,
@@ -725,33 +780,36 @@
     "thumbnail": "images/diary/055-small.webp",
     "sha256": "9452d56dda9a568799cb0c607d88e37658dfc0e72aec090350124a46f6d30488",
     "display_width": 1920,
-    "display_height": 1080
+    "display_height": 1080,
+    "source_status": "retired_or_unavailable"
   },
   {
     "id": 56,
-    "source": "18.Atelier\\Archivie\\Atelier Floor Plan - Table 4 Below Top Storage - 4K.png",
-    "width": 3840,
-    "height": 2160,
-    "caption": "I moved the fourth table beneath the storage. A small furniture decision can rescue a whole afternoon.",
-    "title": "Atelier Floor Plan - Table 4 Below Top Storage",
+    "source": "19. Atelier\\Atelier Table 4 Corrected - Preview.jpg",
+    "width": 1920,
+    "height": 1080,
+    "caption": "The updated atelier layout keeps the worktable and storage arrangement in view.",
+    "title": "Atelier table 4 layout study",
     "image": "images/diary/056.webp",
     "thumbnail": "images/diary/056-small.webp",
-    "sha256": "bb1d0ba757bbabc5c172c7749a55df5fcc0740c7ed8eb157d5957dbf03123787",
+    "sha256": "d56685736a5f6d7dc7891ab570c957d1c0bc227ec4399f5f04c1af9432bef847",
     "display_width": 1920,
-    "display_height": 1080
+    "display_height": 1080,
+    "source_status": "current"
   },
   {
     "id": 57,
-    "source": "18.Atelier\\Atelier Floor Plan - Top Right Fabric Storage - 6 x 8 m - 4K.png",
-    "width": 3840,
-    "height": 2160,
+    "source": "19. Atelier\\Atelier - Fabric Storage View - Consistent.png",
+    "width": 1672,
+    "height": 941,
     "caption": "I put fabric storage in the top-right corner of this plan; I want fewer obstacles between a thought and a swatch.",
     "title": "Atelier Floor Plan - Top Right Fabric Storage - 6 x 8 m",
     "image": "images/diary/057.webp",
     "thumbnail": "images/diary/057-small.webp",
-    "sha256": "ab43f26cfc7759ec6c0d2f560e390a22af1790adcc29464410b0e1bf0c514139",
+    "sha256": "181b284cadeb6ffd99b336d959ee3262f5690969a9c12e616d8d11fc1bd4aecf",
     "display_width": 1920,
-    "display_height": 1080
+    "display_height": 1080,
+    "source_status": "current"
   },
   {
     "id": 58,
@@ -764,7 +822,8 @@
     "thumbnail": "images/diary/058-small.webp",
     "sha256": "df8f8ec662f9c7277823bd50f5db662d7e2b15f4fa809c269851fc47253fe2fc",
     "display_width": 1920,
-    "display_height": 1080
+    "display_height": 1080,
+    "source_status": "current"
   },
   {
     "id": 59,
@@ -777,7 +836,8 @@
     "thumbnail": "images/diary/059-small.webp",
     "sha256": "279c6f8777315d2e8adf68537cb77ea339bc5fc2286a03a318c661a75b1a401f",
     "display_width": 1920,
-    "display_height": 1080
+    "display_height": 1080,
+    "source_status": "current"
   },
   {
     "id": 60,
@@ -790,7 +850,8 @@
     "thumbnail": "images/diary/060-small.webp",
     "sha256": "284893286a6dd4283c85d5654b7d01748ce8fdfe1f6326636cd4c9bad14349b5",
     "display_width": 1920,
-    "display_height": 1080
+    "display_height": 1080,
+    "source_status": "current"
   },
   {
     "id": 61,
@@ -803,7 +864,8 @@
     "thumbnail": "images/diary/061-small.webp",
     "sha256": "1620559fc15e48a60c206f0d202f4f79c9ac9c483516fedf5ca0f5e68ed6914e",
     "display_width": 1920,
-    "display_height": 1080
+    "display_height": 1080,
+    "source_status": "current"
   },
   {
     "id": 62,
@@ -816,7 +878,8 @@
     "thumbnail": "images/diary/062-small.webp",
     "sha256": "ca644167338f5ab4b6b6f69399b68fd3fcf2aa79694802d18cdca7a239254e12",
     "display_width": 1920,
-    "display_height": 1080
+    "display_height": 1080,
+    "source_status": "current"
   },
   {
     "id": 63,
@@ -829,7 +892,8 @@
     "thumbnail": "images/diary/063-small.webp",
     "sha256": "9a4319b5197441012d1bc53152fa6b822be1c662e0a23892ec5e8edb107417fb",
     "display_width": 1920,
-    "display_height": 1080
+    "display_height": 1080,
+    "source_status": "current"
   },
   {
     "id": 64,
@@ -842,7 +906,8 @@
     "thumbnail": "images/diary/064-small.webp",
     "sha256": "957370fcade69d2eef2a3ba1f18a1296f8f1837743cfa9bd9c17c220dcb5db36",
     "display_width": 1920,
-    "display_height": 1080
+    "display_height": 1080,
+    "source_status": "current"
   },
   {
     "id": 65,
@@ -855,59 +920,64 @@
     "thumbnail": "images/diary/065-small.webp",
     "sha256": "b7cf0f8da1d6cccf148359ecee20b1bd6973efbabc844efc804773d58ec87b28",
     "display_width": 1920,
-    "display_height": 1080
+    "display_height": 1080,
+    "source_status": "current"
   },
   {
     "id": 66,
-    "source": "5. Glass Facade Pattern\\01 - Bodice and Reference Board.png",
-    "width": 3840,
-    "height": 2160,
+    "source": "5. Glass Facade Pattern\\5.2 - Bodice and Reference Board - Ultra Realistic v1.png",
+    "width": 1672,
+    "height": 941,
     "caption": "I kept the reference board beside the bodice so the tiny window lines never lost their connection to the skyline.",
     "title": "Bodice and Reference Board",
     "image": "images/diary/066.webp",
     "thumbnail": "images/diary/066-small.webp",
-    "sha256": "c22548772a1de0cdb6192da1584232a1860e35816f778d17a5e6ad7669af276f",
+    "sha256": "de7347cd273b946c4e6654c32478d788c3193064151818b051cb7025eaeb2e97",
     "display_width": 1920,
-    "display_height": 1080
+    "display_height": 1080,
+    "source_status": "current"
   },
   {
     "id": 67,
-    "source": "5. Glass Facade Pattern\\02 - Upper Bodice Window Motif.png",
-    "width": 3840,
-    "height": 2160,
+    "source": "5. Glass Facade Pattern\\02 - Upper Bodice Window Motif - Ultra Realistic v1.png",
+    "width": 1672,
+    "height": 941,
     "caption": "I zoomed in on the neckline; beads, fine lines, and one diagonal had to learn to share the space.",
     "title": "Upper Bodice Window Motif",
     "image": "images/diary/067.webp",
     "thumbnail": "images/diary/067-small.webp",
-    "sha256": "a3959128932615ccefe7de30fa3e4c50e5bd4f19e51cde6ebb9a6aa6c9609213",
+    "sha256": "a73f24dc2dfb9ab1149d0162b6905b41d269a3a16d025ff76777d5bcedb6735b",
     "display_width": 1920,
-    "display_height": 1080
+    "display_height": 1080,
+    "source_status": "current"
   },
   {
     "id": 68,
-    "source": "5. Glass Facade Pattern\\03 - Waist Grid and Diagonal Ribbon.png",
-    "width": 3840,
-    "height": 2160,
+    "source": "5. Glass Facade Pattern\\03 - Waist Grid and Diagonal Ribbon - Ultra Realistic v1.png",
+    "width": 1672,
+    "height": 941,
     "caption": "I watched the silver rib cross the waist grid. That is the moment the dress found its direction.",
     "title": "Waist Grid and Diagonal Ribbon",
     "image": "images/diary/068.webp",
     "thumbnail": "images/diary/068-small.webp",
-    "sha256": "ec3bf7fb6af29f4b4c3d1374d00954e156f294ffb7410b25c875ea6f035e6b0a",
+    "sha256": "04e4703ac3489db1f6b8ffe71a83debe8d5527c89c09956d436a6b2435f757fb",
     "display_width": 1920,
-    "display_height": 1080
+    "display_height": 1080,
+    "source_status": "current"
   },
   {
     "id": 69,
-    "source": "5. Glass Facade Pattern\\04 - Material Sample on the Table.png",
-    "width": 3840,
-    "height": 2160,
+    "source": "5. Glass Facade Pattern\\04 - Material Sample on the Table - Ultra Realistic v1.png",
+    "width": 1672,
+    "height": 941,
     "caption": "I spread the beaded sample flat. A fabric should be interesting before it ever meets a body.",
     "title": "Material Sample on the Table",
     "image": "images/diary/069.webp",
     "thumbnail": "images/diary/069-small.webp",
-    "sha256": "b9b62e5b02808ef51a3633aeecdffe59a2a97c75f02fd927c73ce93402b54931",
+    "sha256": "b64a185909721beccd7e7aa23340ce3e7670362726c7e5d569ee5dc823108b51",
     "display_width": 1920,
-    "display_height": 1080
+    "display_height": 1080,
+    "source_status": "current"
   },
   {
     "id": 70,
@@ -920,7 +990,8 @@
     "thumbnail": "images/diary/070-small.webp",
     "sha256": "8697d680e72cf500a8734a1d94d5117dace1589b21922065c2c45f0a89232fce",
     "display_width": 1920,
-    "display_height": 1080
+    "display_height": 1080,
+    "source_status": "current"
   },
   {
     "id": 71,
@@ -933,7 +1004,8 @@
     "thumbnail": "images/diary/071-small.webp",
     "sha256": "c5d6229ee3a34f8df44b6f2916b87cef2f77d7a8f033822094280116de6b9c55",
     "display_width": 1920,
-    "display_height": 1080
+    "display_height": 1080,
+    "source_status": "current"
   },
   {
     "id": 72,
@@ -946,7 +1018,8 @@
     "thumbnail": "images/diary/072-small.webp",
     "sha256": "9182454b285492b56ad188745b9473a286cabba4ebd3d37b157eda5650ece13e",
     "display_width": 1920,
-    "display_height": 1080
+    "display_height": 1080,
+    "source_status": "current"
   },
   {
     "id": 73,
@@ -959,7 +1032,8 @@
     "thumbnail": "images/diary/073-small.webp",
     "sha256": "1ad897ed7cd46032096ca92e9f40d370f5f655d7a7c8de78a25803ef5b6e2fec",
     "display_width": 1920,
-    "display_height": 1080
+    "display_height": 1080,
+    "source_status": "current"
   },
   {
     "id": 74,
@@ -972,7 +1046,8 @@
     "thumbnail": "images/diary/074-small.webp",
     "sha256": "d5b76c2403e411ac1a402da8c0464944d5c4048d389458dbbf054fa54b6fa23b",
     "display_width": 1920,
-    "display_height": 1080
+    "display_height": 1080,
+    "source_status": "current"
   },
   {
     "id": 75,
@@ -985,7 +1060,8 @@
     "thumbnail": "images/diary/075-small.webp",
     "sha256": "62190f8f15816c07d3490da4e2f7e2999eae332719c9d8a3e38c1e480b354d6b",
     "display_width": 1920,
-    "display_height": 1080
+    "display_height": 1080,
+    "source_status": "current"
   },
   {
     "id": 76,
@@ -998,7 +1074,8 @@
     "thumbnail": "images/diary/076-small.webp",
     "sha256": "1854613571ed69d20cb726a547258df71355fe2eae3c25f4569d59d1d52c8728",
     "display_width": 1920,
-    "display_height": 1080
+    "display_height": 1080,
+    "source_status": "current"
   },
   {
     "id": 77,
@@ -1011,20 +1088,22 @@
     "thumbnail": "images/diary/077-small.webp",
     "sha256": "a1974c37a4864f914554769867b31474a223ea5dfb5026daaff4b4a52534436f",
     "display_width": 1920,
-    "display_height": 1080
+    "display_height": 1080,
+    "source_status": "current"
   },
   {
     "id": 78,
-    "source": "6b. Design With Diagonal Silver Rib\\Dress With Diagonal - Consistent Atelier.png",
+    "source": "6b. Design With Diagonal Silver Rib\\6b Dress With Diagonal - Consistent Atelier.png",
     "width": 3840,
     "height": 2160,
     "caption": "I added the diagonal silver line and the whole dress sharpened up. One detail can be remarkably decisive.",
     "title": "Dress With Diagonal",
     "image": "images/diary/078.webp",
     "thumbnail": "images/diary/078-small.webp",
-    "sha256": "2f154d994780aba5175f1ce165fece20104b128074751e95a88d664fbc71b953",
+    "sha256": "6ba2486b0a508711765a3dce8f81743dd72910a37e5b33688107f8cd7f8458b2",
     "display_width": 1920,
-    "display_height": 1080
+    "display_height": 1080,
+    "source_status": "current"
   },
   {
     "id": 79,
@@ -1037,7 +1116,8 @@
     "thumbnail": "images/diary/079-small.webp",
     "sha256": "2ac4dab5bf3e9ce7df43ecde7783c8fe2bb13e1e4e80559de7881c7ddfa84aa9",
     "display_width": 1920,
-    "display_height": 1080
+    "display_height": 1080,
+    "source_status": "current"
   },
   {
     "id": 80,
@@ -1050,7 +1130,8 @@
     "thumbnail": "images/diary/080-small.webp",
     "sha256": "6f6e69e25cd418904d0171749d35a1c0d596273c650ef421e4db991b0d9e9b79",
     "display_width": 1920,
-    "display_height": 1080
+    "display_height": 1080,
+    "source_status": "current"
   },
   {
     "id": 81,
@@ -1063,7 +1144,8 @@
     "thumbnail": "images/diary/081-small.webp",
     "sha256": "e950dcd6e6be7b6862b323ec899b8905687718340c6387713f1c65b674e62b69",
     "display_width": 1920,
-    "display_height": 1080
+    "display_height": 1080,
+    "source_status": "current"
   },
   {
     "id": 82,
@@ -1076,7 +1158,8 @@
     "thumbnail": "images/diary/082-small.webp",
     "sha256": "85082ff38941c0b4195e443cb8c8d34891e1a50c1e58b255bae6428c7a4fecd8",
     "display_width": 1920,
-    "display_height": 1080
+    "display_height": 1080,
+    "source_status": "current"
   },
   {
     "id": 83,
@@ -1089,7 +1172,8 @@
     "thumbnail": "images/diary/083-small.webp",
     "sha256": "c52c745b70ed1f8366355b5427feb9ada33dcef534eac225d1317ee461a278d1",
     "display_width": 1920,
-    "display_height": 1080
+    "display_height": 1080,
+    "source_status": "current"
   },
   {
     "id": 84,
@@ -1102,7 +1186,8 @@
     "thumbnail": "images/diary/084-small.webp",
     "sha256": "4b9362816a5cdf886b3740c283cc9bedd829f8a7dc4a0adcf67b9ca046bebc75",
     "display_width": 1920,
-    "display_height": 1080
+    "display_height": 1080,
+    "source_status": "current"
   },
   {
     "id": 85,
@@ -1113,9 +1198,10 @@
     "title": "MASTER REFERENCE - Dress 6b and Accessories 7-11",
     "image": "images/diary/085.webp",
     "thumbnail": "images/diary/085-small.webp",
-    "sha256": "e9e7cc892af248e8fd83abd585417191aac2e69567b8c73a4dd50f9bb225521f",
+    "sha256": "7de78e31c592d7168d2797e05005e9a27943b4b9886f46a0cf281f726ed2cbe6",
     "display_width": 1920,
-    "display_height": 1080
+    "display_height": 1080,
+    "source_status": "current"
   },
   {
     "id": 86,
@@ -1128,7 +1214,8 @@
     "thumbnail": "images/diary/086-small.webp",
     "sha256": "23584a24d99e8087f38c493444b7c869547f8a0ad0db119440816cc12beb9199",
     "display_width": 1920,
-    "display_height": 1080
+    "display_height": 1080,
+    "source_status": "current"
   },
   {
     "id": 87,
@@ -1141,7 +1228,8 @@
     "thumbnail": "images/diary/087-small.webp",
     "sha256": "c8f5dc29463ff0b83611f0411ccf7bf55264d3d5e17134b441fcf7ac614958ba",
     "display_width": 1920,
-    "display_height": 1080
+    "display_height": 1080,
+    "source_status": "current"
   },
   {
     "id": 88,
@@ -1154,7 +1242,8 @@
     "thumbnail": "images/diary/088-small.webp",
     "sha256": "808abacfb4c730d8a27243311678f30b63a309fa34be5d849f6c56456f7aee9c",
     "display_width": 1920,
-    "display_height": 1080
+    "display_height": 1080,
+    "source_status": "current"
   },
   {
     "id": 89,
@@ -1165,13 +1254,14 @@
     "title": "Complete Couture Look - Final Hat Option 07 - Mannequin",
     "image": "images/diary/089.webp",
     "thumbnail": "images/diary/089-small.webp",
-    "sha256": "5197be89417384f65dc9f5bae46c2f5b10a0cd0be368fdaa8e7ff95766d1efe4",
+    "sha256": "72c3e4e8c0d838d86afb4397c465ce8fbbafa37aef266624be938061f7f60782",
     "display_width": 1920,
-    "display_height": 1080
+    "display_height": 1080,
+    "source_status": "current"
   },
   {
     "id": 90,
-    "source": "_Short\\12 Model Casting - Working Atelier Board - 4K.png",
+    "source": "_Short\\14 Model Casting - Working Atelier Board - 4K.png",
     "width": 3840,
     "height": 2160,
     "caption": "I kept the casting board in the short edit. Ten possibilities, one collection, several cups of imaginary coffee.",
@@ -1180,7 +1270,8 @@
     "thumbnail": "images/diary/090-small.webp",
     "sha256": "9ff1057bab520e306ad0f10332caa6a5182e58216db4304acd966b0a80e2c5b5",
     "display_width": 1920,
-    "display_height": 1080
+    "display_height": 1080,
+    "source_status": "current"
   },
   {
     "id": 91,
@@ -1193,59 +1284,64 @@
     "thumbnail": "images/diary/091-small.webp",
     "sha256": "df39cdf5e19a49641b4ad127cfae4a6fc78e6499cabf87bb274fb769a6b74a90",
     "display_width": 1920,
-    "display_height": 1080
+    "display_height": 1080,
+    "source_status": "current"
   },
   {
     "id": 92,
     "source": "_Short\\16 Final Model - Couture and Makeup - Hat Option 07.png",
-    "width": 3840,
-    "height": 2160,
+    "width": 1672,
+    "height": 941,
     "caption": "I returned to the full atelier look for the short edit. All those separate decisions finally occupy one frame.",
     "title": "Final Model - Couture and Makeup - Hat Option 07",
     "image": "images/diary/092.webp",
     "thumbnail": "images/diary/092-small.webp",
-    "sha256": "abc406cd58aea7ce06d57233408b2fa67546b242dc1bbcdd83cd9a0aa4dd05bf",
+    "sha256": "0a80b95556a5a627c87b7f5703df16136009fb0122bb464165dccf69ee57105e",
     "display_width": 1920,
-    "display_height": 1080
+    "display_height": 1080,
+    "source_status": "current"
   },
   {
     "id": 93,
-    "source": "_Short\\17a - Cocktail Lounge - Colorful Guests 01 - Hat Option 07.png",
+    "source": "_Short\\17a.png",
     "width": 3840,
     "height": 2160,
     "caption": "I kept this warm lounge moment in the short sequence; I wanted the silver to meet some colour.",
     "title": "Cocktail Lounge - Colorful Guests 01 - Hat Option 07",
     "image": "images/diary/093.webp",
     "thumbnail": "images/diary/093-small.webp",
-    "sha256": "7ba699e818794ea06821d673f9cb71c1ce28d8ef27f50edfe16dbeb460aaad10",
+    "sha256": "3ea345006dabb1b85fece2c93311654a6710362d1ce0f776d6345d9420613da6",
     "display_width": 1920,
-    "display_height": 1080
+    "display_height": 1080,
+    "source_status": "current"
   },
   {
     "id": 94,
-    "source": "_Short\\17b - Casual Party - Same Dress Without Accessories.png",
+    "source": "_Short\\17b.png",
     "width": 3840,
     "height": 2160,
     "caption": "I ended this party beat with the accessories off. My dress can relax without changing its personality.",
     "title": "Casual Party - Same Dress Without Accessories",
     "image": "images/diary/094.webp",
     "thumbnail": "images/diary/094-small.webp",
-    "sha256": "5d44b8ec2765f8cdcc4e4e20ebed853a395cc6ccad42cc1c9b1d07398948d259",
+    "sha256": "7a798656668e75e7599fce3b9bf06a8a6488efe853631cace4a873e0c3f32be4",
     "display_width": 1920,
-    "display_height": 1080
+    "display_height": 1080,
+    "source_status": "current"
   },
   {
     "id": 95,
-    "source": "_Short\\19 MASTER REFERENCE - Dress 6b and Accessories 7-11.png",
+    "source": "_Short\\MASTER REFERENCE - Dress 6b and Accessories 7-11.png",
     "width": 3840,
     "height": 2160,
     "caption": "I included the master board so the short story still shows how the accessories belong together.",
     "title": "MASTER REFERENCE - Dress 6b and Accessories 7-11",
     "image": "images/diary/095.webp",
     "thumbnail": "images/diary/095-small.webp",
-    "sha256": "e9e7cc892af248e8fd83abd585417191aac2e69567b8c73a4dd50f9bb225521f",
+    "sha256": "7de78e31c592d7168d2797e05005e9a27943b4b9886f46a0cf281f726ed2cbe6",
     "display_width": 1920,
-    "display_height": 1080
+    "display_height": 1080,
+    "source_status": "current"
   },
   {
     "id": 96,
@@ -1258,7 +1354,8 @@
     "thumbnail": "images/diary/096-small.webp",
     "sha256": "df8f8ec662f9c7277823bd50f5db662d7e2b15f4fa809c269851fc47253fe2fc",
     "display_width": 1920,
-    "display_height": 1080
+    "display_height": 1080,
+    "source_status": "current"
   },
   {
     "id": 97,
@@ -1271,7 +1368,8 @@
     "thumbnail": "images/diary/097-small.webp",
     "sha256": "279c6f8777315d2e8adf68537cb77ea339bc5fc2286a03a318c661a75b1a401f",
     "display_width": 1920,
-    "display_height": 1080
+    "display_height": 1080,
+    "source_status": "current"
   },
   {
     "id": 98,
@@ -1284,7 +1382,8 @@
     "thumbnail": "images/diary/098-small.webp",
     "sha256": "b7cf0f8da1d6cccf148359ecee20b1bd6973efbabc844efc804773d58ec87b28",
     "display_width": 1920,
-    "display_height": 1080
+    "display_height": 1080,
+    "source_status": "current"
   },
   {
     "id": 99,
@@ -1297,7 +1396,8 @@
     "thumbnail": "images/diary/099-small.webp",
     "sha256": "c5d6229ee3a34f8df44b6f2916b87cef2f77d7a8f033822094280116de6b9c55",
     "display_width": 1920,
-    "display_height": 1080
+    "display_height": 1080,
+    "source_status": "current"
   },
   {
     "id": 100,
@@ -1308,9 +1408,10 @@
     "title": "Bodice and Reference Board",
     "image": "images/diary/100.webp",
     "thumbnail": "images/diary/100-small.webp",
-    "sha256": "c22548772a1de0cdb6192da1584232a1860e35816f778d17a5e6ad7669af276f",
+    "sha256": "841dcabda31b6bc563bbbb2491d6fe6510c63d82a322fa2006a60474c67871f8",
     "display_width": 1920,
-    "display_height": 1080
+    "display_height": 1080,
+    "source_status": "current"
   },
   {
     "id": 101,
@@ -1323,7 +1424,8 @@
     "thumbnail": "images/diary/101-small.webp",
     "sha256": "2f154d994780aba5175f1ce165fece20104b128074751e95a88d664fbc71b953",
     "display_width": 1920,
-    "display_height": 1080
+    "display_height": 1080,
+    "source_status": "retired_or_unavailable"
   },
   {
     "id": 102,
@@ -1336,7 +1438,8 @@
     "thumbnail": "images/diary/102-small.webp",
     "sha256": "6f6e69e25cd418904d0171749d35a1c0d596273c650ef421e4db991b0d9e9b79",
     "display_width": 1920,
-    "display_height": 1080
+    "display_height": 1080,
+    "source_status": "current"
   },
   {
     "id": 103,
@@ -1349,7 +1452,8 @@
     "thumbnail": "images/diary/103-small.webp",
     "sha256": "85082ff38941c0b4195e443cb8c8d34891e1a50c1e58b255bae6428c7a4fecd8",
     "display_width": 1920,
-    "display_height": 1080
+    "display_height": 1080,
+    "source_status": "current"
   },
   {
     "id": 104,
@@ -1362,7 +1466,8 @@
     "thumbnail": "images/diary/104-small.webp",
     "sha256": "c52c745b70ed1f8366355b5427feb9ada33dcef534eac225d1317ee461a278d1",
     "display_width": 1920,
-    "display_height": 1080
+    "display_height": 1080,
+    "source_status": "current"
   },
   {
     "id": 105,
@@ -1375,6 +1480,7 @@
     "thumbnail": "images/diary/105-small.webp",
     "sha256": "d41c53809248693770343c16a0d5562b00d4e70bb5b7dfac89342805e0d8d453",
     "display_width": 1920,
-    "display_height": 1080
+    "display_height": 1080,
+    "source_status": "current"
   }
 ]
