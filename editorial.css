@@ -1,18 +1,459 @@
-*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:30px}body{margin:0;background:#f3efe7;color:#202d32;font:400 16px/1.75 Jost,Arial,sans-serif}a{color:inherit;text-decoration:none}a:hover{color:#83613a}a:focus-visible,summary:focus-visible{outline:2px solid #ab8350;outline-offset:5px}.site-header{position:relative;z-index:30;display:flex;justify-content:space-between;align-items:center;gap:24px;padding:25px 5%;background:#101c27;color:#f3efe7;border-bottom:1px solid #45515b}.site-brand{font:400 29px Georgia,serif;white-space:nowrap}.site-brand i{color:#cbb58f}.site-nav{display:flex;align-items:center;gap:30px;font-size:12px;text-transform:uppercase;letter-spacing:.1em}.site-nav>a,.site-nav .collection-links a{margin:0;font-size:12px;letter-spacing:.1em}.collections-menu{position:relative;margin:0;padding:0;border:0}.collections-menu summary{cursor:pointer;margin:0;color:inherit;list-style:none}.collections-menu summary::-webkit-details-marker{display:none}.collections-menu summary::after{content:' ▾';color:#cbb58f}.collections-menu[open] summary::after{content:' ▴'}.collection-links{position:absolute;top:calc(100% + 18px);left:0;min-width:240px;padding:12px;background:#101c27;border:1px solid #52606b;box-shadow:0 15px 35px #0003}.collection-links a{display:block;padding:10px 12px}.collection-links a:hover{background:#253340;color:#ead4b2}body>main{max-width:1320px;margin:auto;padding:0 5%}.journal-intro{padding:85px 0 70px;max-width:850px}.kicker{font-size:11px;letter-spacing:.19em;text-transform:uppercase;color:#80623e;margin:0 0 20px}h1,h2,h3{font-family:'Cormorant Garamond',Georgia,serif;font-weight:400}h1{font-size:clamp(4rem,9vw,8.5rem);line-height:.95;letter-spacing:-.045em;margin:25px 0 35px}h1 em{color:#80623e}h2{font-size:clamp(2.7rem,5vw,4.5rem);line-height:1.04;margin:10px 0 25px}h3{font-size:2rem;line-height:1.15;margin:10px 0 15px}.lead{font-size:23px;max-width:680px}.text-link{display:inline-block;padding:5px 0;border-bottom:1px solid #9d805c}.feature{display:grid;grid-template-columns:1.2fr 1fr;border-top:1px solid #c5bcae;border-bottom:1px solid #c5bcae;padding:40px 0;gap:45px;align-items:center}.feature img{width:100%;height:auto;display:block}.standfirst{font:italic 30px Georgia,serif}.small,figcaption{font-size:12px;color:#626a6b;margin-top:20px}.journal-section{padding:75px 0;border-bottom:1px solid #c5bcae}.section-heading{max-width:750px;margin-bottom:40px}.entry-grid{display:grid;grid-template-columns:1fr 1fr;gap:55px 30px}.entry img{display:block;width:100%;aspect-ratio:16/10;object-fit:contain;background:#e4dfd5;margin-bottom:24px}.entry p{max-width:500px}.upcoming-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px}.upcoming{border-top:1px solid #c5bcae;padding:25px 0;scroll-margin-top:30px}.upcoming .text-link{font-size:13px}.atelier-note{padding:75px 0}.site-footer{display:flex;justify-content:space-between;gap:20px;background:#101c27;color:#f3efe7;padding:30px 5%;font-size:12px}.atelier-figure{margin:0}.atelier-figure img{display:block;width:100%;height:auto}body:has(.chapter),body:has(.layout){background:#0b1420;color:#f2eee8}@media(max-width:760px){.site-header{align-items:flex-start;flex-direction:column;padding:20px 5%;gap:18px}.site-nav{gap:22px;flex-wrap:wrap}.site-nav>a{margin:0}.collection-links{max-width:85vw}.journal-intro{padding:55px 0}.feature,.entry-grid{grid-template-columns:1fr}.feature{gap:25px}.upcoming-grid{grid-template-columns:1fr 1fr}.journal-section,.atelier-note{padding:50px 0}.site-footer{flex-direction:column}.lead{font-size:20px}}@media(max-width:420px){.upcoming-grid{grid-template-columns:1fr}.site-nav{gap:18px;font-size:11px}}@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 30px;
+}
+
+body {
+    margin: 0;
+    background: #f3efe7;
+    color: #202d32;
+    font: 400 16px/1.75 Jost,Arial,sans-serif;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #83613a;
+}
+
+a:focus-visible,
+summary:focus-visible {
+    outline: 2px solid #ab8350;
+    outline-offset: 5px;
+}
+
+.site-header {
+    position: relative;
+    z-index: 30;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+    padding: 25px 5%;
+    background: #101c27;
+    color: #f3efe7;
+    border-bottom: 1px solid #45515b;
+}
+
+.site-brand {
+    font: 400 29px Georgia,serif;
+    white-space: nowrap;
+}
+
+.site-brand i {
+    color: #cbb58f;
+}
+
+.site-nav {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+}
+
+.site-nav>a,
+.site-nav .collection-links a {
+    margin: 0;
+    font-size: 12px;
+    letter-spacing: .1em;
+}
+
+.collections-menu {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.collections-menu summary {
+    cursor: pointer;
+    margin: 0;
+    color: inherit;
+    list-style: none;
+}
+
+.collections-menu summary::-webkit-details-marker {
+    display: none;
+}
+
+.collections-menu summary::after {
+    content: ' ▾';
+    color: #cbb58f;
+}
+
+.collections-menu[open] summary::after {
+    content: ' ▴';
+}
+
+.collection-links {
+    position: absolute;
+    top: calc(100% + 18px);
+    left: 0;
+    min-width: 240px;
+    padding: 12px;
+    background: #101c27;
+    border: 1px solid #52606b;
+    box-shadow: 0 15px 35px #0003;
+}
+
+.collection-links a {
+    display: block;
+    padding: 10px 12px;
+}
+
+.collection-links a:hover {
+    background: #253340;
+    color: #ead4b2;
+}
+
+body>main {
+    max-width: 1320px;
+    margin: auto;
+    padding: 0 5%;
+}
+
+.journal-intro {
+    padding: 85px 0 70px;
+    max-width: 850px;
+    width: var(--page-width);
+}
+
+.kicker {
+    font-size: 11px;
+    letter-spacing: .19em;
+    text-transform: uppercase;
+    color: #80623e;
+    margin: 0 0 20px;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Cormorant Garamond',Georgia,serif;
+    font-weight: 400;
+}
+
+h1 {
+    font-size: clamp(4rem,9vw,8.5rem);
+    line-height: .95;
+    letter-spacing: -.045em;
+    margin: 25px 0 35px;
+    max-width: 14000px;
+}
+
+h1 em {
+    color: #80623e;
+}
+
+h2 {
+    font-size: clamp(2.7rem,5vw,4.5rem);
+    line-height: 1.04;
+    margin: 10px 0 25px;
+}
+
+h3 {
+    font-size: 2rem;
+    line-height: 1.15;
+    margin: 10px 0 15px;
+}
+
+.lead {
+    font-size: 23px;
+    max-width: 14000px;
+}
+
+.text-link {
+    display: inline-block;
+    padding: 5px 0;
+    border-bottom: 1px solid #9d805c;
+}
+
+.feature {
+    display: grid;
+    grid-template-columns: 1.2fr 1fr;
+    border-top: 1px solid #c5bcae;
+    border-bottom: 1px solid #c5bcae;
+    padding: 40px 0;
+    gap: 45px;
+    align-items: center;
+}
+
+.feature img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.standfirst {
+    font: italic 30px Georgia,serif;
+}
+
+.small,
+figcaption {
+    font-size: 12px;
+    color: #626a6b;
+    margin-top: 20px;
+}
+
+.journal-section {
+    padding: 75px 0;
+    border-bottom: 1px solid #c5bcae;
+}
+
+.section-heading {
+    max-width: 750px;
+    margin-bottom: 40px;
+}
+
+.entry-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 55px 30px;
+}
+
+.entry img {
+    display: block;
+    width: 100%;
+    aspect-ratio: 16/10;
+    object-fit: contain;
+    background: #e4dfd5;
+    margin-bottom: 24px;
+}
+
+.entry p {
+    max-width: 500px;
+}
+
+.upcoming-grid {
+    display: grid;
+    grid-template-columns: repeat(3,minmax(0,1fr));
+    gap: 24px;
+}
+
+.upcoming {
+    border-top: 1px solid #c5bcae;
+    padding: 25px 0;
+    scroll-margin-top: 30px;
+}
+
+.upcoming .text-link {
+    font-size: 13px;
+}
+
+.atelier-note {
+    padding: 75px 0;
+}
+
+.site-footer {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    background: #101c27;
+    color: #f3efe7;
+    padding: 30px 5%;
+    font-size: 12px;
+}
+
+.atelier-figure {
+    margin: 0;
+}
+
+.atelier-figure img {
+    display: block;
+    width: var(--page-width);
+    height: auto;
+}
+
+body:has(.chapter),
+body:has(.layout) {
+    background: #0b1420;
+    color: #f2eee8;
+}
+
+@media (max-width:760px){
+    .site-header {
+        align-items: flex-start;
+        flex-direction: column;
+        padding: 20px 5%;
+        gap: 18px;
+    }
+
+    .site-nav {
+        gap: 22px;
+        flex-wrap: wrap;
+    }
+
+    .site-nav>a {
+        margin: 0;
+    }
+
+    .collection-links {
+        max-width: 85vw;
+    }
+
+    .journal-intro {
+        padding: 55px 0;
+    }
+
+    .feature,
+    .entry-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .feature {
+        gap: 25px;
+    }
+
+    .upcoming-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .journal-section,
+    .atelier-note {
+        padding: 50px 0;
+    }
+
+    .site-footer {
+        flex-direction: column;
+    }
+
+    .lead {
+        font-size: 20px;
+    }
+}
+
+@media (max-width:420px){
+    .upcoming-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .site-nav {
+        gap: 18px;
+        font-size: 11px;
+    }
+}
+
+@media (prefers-reduced-motion:reduce){
+    html {
+        scroll-behavior: auto;
+    }
+}
 
 /* Collection notes remain readable within the mobile dropdown. */
-.collection-links{width:300px;max-width:85vw}.collection-status{display:block;margin-top:3px;font-size:11px;line-height:1.5;letter-spacing:0;text-transform:none;color:#cbb58f}.collection-progress{color:#80623e}
+.collection-links {
+    width: 300px;
+    max-width: 85vw;
+}
 
-.sequence-label{font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:#cbb58f;margin:24px 0}.image-stage{margin-top:50px;padding-top:20px;border-top:1px solid #36414e}.feature-sequence{display:grid;gap:32px}.feature-sequence figure{margin:0}.feature-sequence figcaption{margin-top:10px}.atelier-figure+.atelier-figure{margin-top:45px}
+.collection-status {
+    display: block;
+    margin-top: 3px;
+    font-size: 11px;
+    line-height: 1.5;
+    letter-spacing: 0;
+    text-transform: none;
+    color: #cbb58f;
+}
+
+.collection-progress {
+    color: #80623e;
+}
+
+.sequence-label {
+    font-size: 12px;
+    letter-spacing: .12em;
+    text-transform: uppercase;
+    color: #cbb58f;
+    margin: 24px 0;
+}
+
+.image-stage {
+    margin-top: 50px;
+    padding-top: 20px;
+    border-top: 1px solid #36414e;
+}
+
+.feature-sequence {
+    display: grid;
+    gap: 32px;
+}
+
+.feature-sequence figure {
+    margin: 0;
+}
+
+.feature-sequence figcaption {
+    margin-top: 10px;
+}
+
+.atelier-figure+.atelier-figure {
+    margin-top: 45px;
+}
 
 /* One shared content width: full-width singles and equally divided image rows. */
-:root{--page-width:min(1320px,calc(100% - 80px))}
-body>main{width:var(--page-width);max-width:none;margin-inline:auto;padding-inline:0}
-.gallery,.gallery:has(>figure:only-child){width:100%;max-width:none}
-.gallery{grid-template-columns:repeat(2,minmax(0,1fr))}
-.gallery:has(>figure:only-child){grid-template-columns:minmax(0,1fr)}
-.gallery>figure{width:100%;min-width:0}
-.gallery .image-link{width:100%}
-.gallery .image-link img{width:100%;height:auto;max-height:none;aspect-ratio:16/9;object-fit:contain}
-.gallery:has(>figure:only-child) .image-link img{height:auto;max-height:none;aspect-ratio:auto}
-@media(max-width:760px){:root{--page-width:calc(100% - 40px)}.gallery{grid-template-columns:minmax(0,1fr)}}
+:root {
+    --page-width: min(1320px,calc(100% - 80px));
+}
+
+body>main {
+    width: var(--page-width);
+    max-width: none;
+    margin-inline: auto;
+    padding-inline: 0;
+}
+
+.gallery,
+.gallery:has(>figure:only-child) {
+    width: 100%;
+    max-width: none;
+}
+
+.gallery {
+    grid-template-columns: repeat(2,minmax(0,1fr));
+}
+
+.gallery:has(>figure:only-child) {
+    grid-template-columns: minmax(0,1fr);
+}
+
+.gallery>figure {
+    width: 100%;
+    min-width: 0;
+}
+
+.gallery .image-link {
+    width: 100%;
+}
+
+.gallery .image-link img {
+    width: 100%;
+    height: auto;
+    max-height: none;
+    aspect-ratio: 16/9;
+    object-fit: contain;
+}
+
+.gallery:has(>figure:only-child) .image-link img {
+    height: auto;
+    max-height: none;
+    aspect-ratio: auto;
+}
+
+@media (max-width:760px){
+    :root {
+        --page-width: calc(100% - 40px);
+    }
+
+    .gallery {
+        grid-template-columns: minmax(0,1fr);
+    }
+}

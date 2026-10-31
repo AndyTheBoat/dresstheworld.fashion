@@ -6,3 +6,11 @@
 .entry-cover{width:var(--page-width);max-width:none;margin:32px auto 0}
 .entry-cover>img{width:100%;height:auto;aspect-ratio:auto;object-fit:contain}
 @media(max-width:760px){.entry-cover{width:var(--page-width);margin-top:24px}}
+
+/* Selected option 6: live typography stays sharp at every display resolution. */
+.entry-artwork{position:relative;width:100%;container-type:inline-size;isolation:isolate}
+.entry-artwork>img{display:block;width:100%;height:auto}
+.entry-title{position:absolute;inset:0;display:grid;place-items:center;pointer-events:none;text-align:center}
+.entry-signature{padding:6.875cqw 5.75cqw;background:radial-gradient(ellipse,#071724dc 0%,#07172490 42%,transparent 73%);color:#ead7b3;text-shadow:0 .375cqw .625cqw #000}
+.entry-brand-name{display:block;font:italic 600 7.625cqw/1.05 Georgia,serif;white-space:nowrap;letter-spacing:normal}
+.entry-brand-domain{display:block;margin-top:.8cqw;font:italic 600 3.6cqw/1.1 Georgia,serif;letter-spacing:.06em}
